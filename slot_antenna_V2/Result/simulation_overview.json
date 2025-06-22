@@ -1,5 +1,5 @@
 {
-    "date": "2025-06-22, 4:55:45 PM, W. Europe Daylight Time",
+    "date": "2025-06-22, 6:19:56 PM, W. Europe Daylight Time",
     "solver_runs_and_tasks": {
         "module_name": "standard simulation project",
         "solver_run": {
@@ -19,7 +19,7 @@
                 "num_threads": 1024
             },
             "opt_par_run_id": 1,
-            "return_code": 1,
+            "return_code": 3,
             "solver_hwacc_usage": {
                 "info": "gathered from solver run",
                 "mpi": {
@@ -37,10 +37,10 @@
             "task_name": "solver run",
             "time_info": {
                 "details": {
-                    "discretizer": 22,
-                    "solver": 515
+                    "discretizer": 24,
+                    "solver": 525
                 },
-                "run_time": 548
+                "run_time": 560
             }
         }
     },

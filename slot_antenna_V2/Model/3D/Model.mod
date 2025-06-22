@@ -1755,3 +1755,248 @@ Material.Delete "Silicon (loss free)"
 '[VERSION]2024.5|33.0.1|20240614[/VERSION]
 Material.Delete "PEC"
 
+'@ farfield plot options
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+With FarfieldPlot 
+     .Plottype "Polar" 
+     .Vary "angle1" 
+     .Theta "90" 
+     .Phi "90" 
+     .Step "0.2" 
+     .Step2 "0.2" 
+     .SetLockSteps "True" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "True" 
+     .SymmetricRange "True" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "10" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "True" 
+     .ShowStructureProfile "True" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .AspectRatio "Free" 
+     .ShowGridlines "True" 
+     .InvertAxes "False", "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Directivity" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .IncludeUnitCellSidewalls "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .SetMaxReferenceMode "abs" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1.0" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "user" 
+     .SetAntennaType "unknown" 
+     .Phistart "1.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .Thetastart "0.000000e+00", "0.000000e+00", "1.000000e+00" 
+     .PolarizationVector "0.000000e+00", "1.000000e+00", "0.000000e+00" 
+     .SetCoordinateSystemType "spherical" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Linear" 
+     .SlantAngle 0.000000e+00 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+00" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+01" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .ClearCuts 
+
+     .StoreSettings
+End With
+
+'@ transform: scale antenna:waveguide
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+With Transform 
+     .Reset 
+     .Name "antenna:waveguide" 
+     .Origin "Free" 
+     .Center "0", "0", "0" 
+     .ScaleFactor "1", "0.9925833", "1" 
+     .MultipleObjects "False" 
+     .GroupObjects "False" 
+     .Repetitions "1" 
+     .MultipleSelection "False" 
+     .AutoDestination "True" 
+     .Transform "Shape", "Scale" 
+End With
+
+'@ pick face
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.PickFaceFromId "port1", "1"
+
+'@ delete picked face
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.DeleteFace "-1"
+
+'@ pick face
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.PickFaceFromId "antenna:waveguide", "309"
+
+'@ delete picked face
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.DeleteFace "-1"
+
+'@ pick mid point
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.PickMidpointFromId "antenna:waveguide", "609"
+
+'@ pick mid point
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.PickMidpointFromId "antenna:waveguide", "610"
+
+'@ delete picked point
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.DeletePoint "-1"
+
+'@ delete picked point
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.DeletePoint "-1"
+
+'@ clear picks
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.ClearAllPicks
+
+'@ pick face
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Pick.PickFaceFromId "antenna:waveguide", "309"
+
+'@ define port: 2
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+With Port 
+     .Reset 
+     .PortNumber "2" 
+     .Label ""
+     .Folder ""
+     .NumberOfModes "1"
+     .AdjustPolarization "False"
+     .PolarizationAngle "0.0"
+     .ReferencePlaneDistance "0"
+     .TextSize "50"
+     .TextMaxLimit "1"
+     .Coordinates "Picks"
+     .Orientation "positive"
+     .PortOnBound "False"
+     .ClipPickedPortToBound "False"
+     .Xrange "-2.4801255490365", "2.4801255490365"
+     .Yrange "-219.01928112411", "-219.01928112411"
+     .Zrange "-4.9605942990365", "4.9605942990365"
+     .XrangeAdd "0.0", "0.0"
+     .YrangeAdd "0.0", "0.0"
+     .ZrangeAdd "0.0", "0.0"
+     .SingleEnded "False"
+     .WaveguideMonitor "False"
+     .Create 
+End With
+
+'@ delete port: port1
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+Port.Delete "1"
+
+'@ farfield plot options
+
+'[VERSION]2024.5|33.0.1|20240614[/VERSION]
+With FarfieldPlot 
+     .Plottype "Polar" 
+     .Vary "angle1" 
+     .Theta "0" 
+     .Phi "0" 
+     .Step "0.2" 
+     .Step2 "0.2" 
+     .SetLockSteps "True" 
+     .SetPlotRangeOnly "False" 
+     .SetThetaStart "0" 
+     .SetThetaEnd "180" 
+     .SetPhiStart "0" 
+     .SetPhiEnd "360" 
+     .SetTheta360 "True" 
+     .SymmetricRange "True" 
+     .SetTimeDomainFF "False" 
+     .SetFrequency "24" 
+     .SetTime "0" 
+     .SetColorByValue "True" 
+     .DrawStepLines "False" 
+     .DrawIsoLongitudeLatitudeLines "False" 
+     .ShowStructure "True" 
+     .ShowStructureProfile "True" 
+     .SetStructureTransparent "False" 
+     .SetFarfieldTransparent "False" 
+     .AspectRatio "Free" 
+     .ShowGridlines "True" 
+     .InvertAxes "False", "False" 
+     .SetSpecials "enablepolarextralines" 
+     .SetPlotMode "Gain" 
+     .Distance "1" 
+     .UseFarfieldApproximation "True" 
+     .IncludeUnitCellSidewalls "True" 
+     .SetScaleLinear "False" 
+     .SetLogRange "40" 
+     .SetLogNorm "0" 
+     .DBUnit "0" 
+     .SetMaxReferenceMode "abs" 
+     .EnableFixPlotMaximum "False" 
+     .SetFixPlotMaximumValue "1.0" 
+     .SetInverseAxialRatio "False" 
+     .SetAxesType "xyz" 
+     .SetAntennaType "unknown" 
+     .Phistart "1.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .Thetastart "0.000000e+00", "0.000000e+00", "1.000000e+00" 
+     .PolarizationVector "0.000000e+00", "1.000000e+00", "0.000000e+00" 
+     .SetCoordinateSystemType "ludwig3" 
+     .SetAutomaticCoordinateSystem "True" 
+     .SetPolarizationType "Linear" 
+     .SlantAngle 4.500000e+01 
+     .Origin "bbox" 
+     .Userorigin "0.000000e+00", "0.000000e+00", "0.000000e+00" 
+     .SetUserDecouplingPlane "False" 
+     .UseDecouplingPlane "False" 
+     .DecouplingPlaneAxis "X" 
+     .DecouplingPlanePosition "0.000000e+00" 
+     .LossyGround "False" 
+     .GroundEpsilon "1" 
+     .GroundKappa "0" 
+     .EnablePhaseCenterCalculation "False" 
+     .SetPhaseCenterAngularLimit "3.000000e+01" 
+     .SetPhaseCenterComponent "boresight" 
+     .SetPhaseCenterPlane "both" 
+     .ShowPhaseCenter "True" 
+     .ClearCuts 
+
+     .StoreSettings
+End With
+
