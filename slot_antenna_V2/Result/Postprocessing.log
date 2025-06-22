@@ -1,0 +1,21 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-06-22 16:55:40
+
+  Evaluating 'GainPhi0': 0.863 s
+  Evaluating 'GainPhi90': 0.504 s
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 1.473 s
+
+  Total time: 3 s  ( = 0 h, 0 m, 3 s )
+
+Template based post-processing finished at: 2025-06-22 16:55:43
+----------------------------------------------------------------------------------------
