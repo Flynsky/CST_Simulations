@@ -1,0 +1,59 @@
+11
+0
+0
+5
+GainPhi90
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+ED10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+GainPhi90
+GainPhi0
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+ED10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+GainPhi0
+GainTheta0Phi0
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+ED10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+GainTheta0Phi0
+Export Farfields to 3DEXPERIENCE Content
+Export Farfields to 3DEXPERIENCE Content
+1
+0D
+Misc
+P
+ED10
+Export Farfields to 3DEXPERIENCE Content^+MWS+DS.rtp
+VBA
+0
+Directivity, constant Theta=90
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+EP10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+Directivity, constant Theta=90
+0

@@ -1,0 +1,314 @@
+*** File Version: 21.00
+
+Number of ports: 2
+Portnames: "1" "2"
+Modenumbers: 1 1
+Porttypes: 3 3
+Portlabels: "" ""
+StaticSources:
+ThermalSources:
+FloquetPortNames:
+FloquetPortModes:
+SchematicPortNames:
+SchematicPortLabels:
+Terminals:
+StaticToReferenceTable:
+ThermalToReferenceTable:
+TerminalToReferenceTable:
+PortToReferenceTable: "1" "1'" "2" "2'"
+FloquetToReferenceTable:
+SchematicToReferenceTable:
+StaticSourceGroups:
+ThermalSourceGroups:
+TerminalSourceGroups:
+PortSourceGroups:
+FloquetPortSourceGroups:
+SchematicPortSourceGroups:
+Number of frequency-points: 2
+Fmin: 1.920000e+10
+Fmax: 2.880000e+10
+Fscale: 1.000000e+09
+
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 2
+Modenumber: 1
+Modetype: 4
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 1
+Modenumber: 1
+Modetype: 4
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+
+
+*** newmonitor
+monname: "farfield (f=19.7052631578947)"
+nmonfrequencies: 1
+monfrequencies: "19.705263157894699" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=20.2105263157895)"
+nmonfrequencies: 1
+monfrequencies: "20.210526315789501" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=20.7157894736842)"
+nmonfrequencies: 1
+monfrequencies: "20.7157894736842" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=21.221052631579)"
+nmonfrequencies: 1
+monfrequencies: "21.221052631578999" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=21.7263157894737)"
+nmonfrequencies: 1
+monfrequencies: "21.726315789473698" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=22.2315789473684)"
+nmonfrequencies: 1
+monfrequencies: "22.231578947368401" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=22.7368421052632)"
+nmonfrequencies: 1
+monfrequencies: "22.7368421052632" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=23.2421052631579)"
+nmonfrequencies: 1
+monfrequencies: "23.242105263157899" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=24.2526315789474)"
+nmonfrequencies: 1
+monfrequencies: "24.252631578947401" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=24.7578947368421)"
+nmonfrequencies: 1
+monfrequencies: "24.757894736842101" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=25.2631578947369)"
+nmonfrequencies: 1
+monfrequencies: "25.263157894736899" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=25.7684210526316)"
+nmonfrequencies: 1
+monfrequencies: "25.768421052631599" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=26.2736842105263)"
+nmonfrequencies: 1
+monfrequencies: "26.273684210526302" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=26.7789473684211)"
+nmonfrequencies: 1
+monfrequencies: "26.7789473684211" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=27.2842105263158)"
+nmonfrequencies: 1
+monfrequencies: "27.2842105263158" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=27.7894736842106)"
+nmonfrequencies: 1
+monfrequencies: "27.789473684210598" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=28.2947368421053)"
+nmonfrequencies: 1
+monfrequencies: "28.294736842105301" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=28.8)"
+nmonfrequencies: 1
+monfrequencies: "28.800000000000001" 
+montype: 18
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "e-field (f=frequency_centre)"
+nmonfrequencies: 1
+monfrequencies: "24" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "h-field (f=24;x=2.600153076481778)"
+nmonfrequencies: 1
+monfrequencies: "24" 
+montype: 1
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=23.7473684210526)"
+nmonfrequencies: 1
+monfrequencies: "23.747368421052599" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "farfield (f=19.2)"
+nmonfrequencies: 1
+monfrequencies: "19.199999999999999" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "e-field (f=24)"
+nmonfrequencies: 1
+monfrequencies: "24" 
+montype: 0
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+

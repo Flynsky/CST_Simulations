@@ -1,0 +1,1294 @@
+{
+    "parameters": [
+        {
+            "descr": "Centre frequency",
+            "expr": "24",
+            "name": "frequency_centre",
+            "value": "24"
+        },
+        {
+            "expr": "c0/frequency_centre",
+            "name": "wavelength_centre",
+            "value": "12.4913524166667"
+        },
+        {
+            "descr": "Waveguide width",
+            "expr": "9.80571164708333",
+            "name": "waveguide_width",
+            "value": "9.80571164708333"
+        },
+        {
+            "expr": "inset_from_feed+(num_slots-1)*slot_spacing+inset_from_termination",
+            "name": "waveguide_length",
+            "value": "156.869610936967"
+        },
+        {
+            "descr": "Waveguide height",
+            "expr": "4.90285582354167",
+            "name": "waveguide_height",
+            "value": "4.90285582354167"
+        },
+        {
+            "descr": "Slot width",
+            "expr": "0.624567620833333",
+            "name": "slot_width",
+            "value": "0.624567620833333"
+        },
+        {
+            "descr": "Slot spacing",
+            "expr": "7.13043686077124",
+            "name": "slot_spacing",
+            "value": "7.13043686077124"
+        },
+        {
+            "descr": "Slot 99 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_99",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 98 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_98",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 97 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_97",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 96 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_96",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 95 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_95",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 94 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_94",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 93 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_93",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 92 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_92",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 91 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_91",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 90 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_90",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 9 depth",
+            "expr": "0.900614433816225",
+            "name": "slot_depth_9",
+            "value": "0.900614433816225"
+        },
+        {
+            "descr": "Slot 89 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_89",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 88 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_88",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 87 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_87",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 86 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_86",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 85 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_85",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 84 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_84",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 83 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_83",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 82 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_82",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 81 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_81",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 80 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_80",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 8 depth",
+            "expr": "0.923408672072909",
+            "name": "slot_depth_8",
+            "value": "0.923408672072909"
+        },
+        {
+            "descr": "Slot 79 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_79",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 78 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_78",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 77 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_77",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 76 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_76",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 75 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_75",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 74 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_74",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 73 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_73",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 72 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_72",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 71 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_71",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 70 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_70",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 7 depth",
+            "expr": "0.936601480460613",
+            "name": "slot_depth_7",
+            "value": "0.936601480460613"
+        },
+        {
+            "descr": "Slot 69 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_69",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 68 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_68",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 67 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_67",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 66 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_66",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 65 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_65",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 64 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_64",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 63 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_63",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 62 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_62",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 61 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_61",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 60 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_60",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 6 depth",
+            "expr": "0.945807277296116",
+            "name": "slot_depth_6",
+            "value": "0.945807277296116"
+        },
+        {
+            "descr": "Slot 59 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_59",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 58 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_58",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 57 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_57",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 56 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_56",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 55 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_55",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 54 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_54",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 53 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_53",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 52 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_52",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 51 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_51",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 50 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_50",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 5 depth",
+            "expr": "0.954334859601119",
+            "name": "slot_depth_5",
+            "value": "0.954334859601119"
+        },
+        {
+            "descr": "Slot 49 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_49",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 48 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_48",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 47 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_47",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 46 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_46",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 45 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_45",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 44 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_44",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 43 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_43",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 42 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_42",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 41 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_41",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 40 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_40",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 4 depth",
+            "expr": "0.961068973053978",
+            "name": "slot_depth_4",
+            "value": "0.961068973053978"
+        },
+        {
+            "descr": "Slot 39 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_39",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 38 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_38",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 37 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_37",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 36 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_36",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 35 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_35",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 34 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_34",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 33 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_33",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 32 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_32",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 31 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_31",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 30 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_30",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 3 depth",
+            "expr": "0.96338019759198",
+            "name": "slot_depth_3",
+            "value": "0.96338019759198"
+        },
+        {
+            "descr": "Slot 29 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_29",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 28 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_28",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 27 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_27",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 26 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_26",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 25 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_25",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 24 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_24",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 23 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_23",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 22 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_22",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 21 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_21",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 20 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_20",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 2 depth",
+            "expr": "0.961817734304667",
+            "name": "slot_depth_2",
+            "value": "0.961817734304667"
+        },
+        {
+            "descr": "Slot 19 depth",
+            "expr": "0.515103175897115",
+            "name": "slot_depth_19",
+            "value": "0.515103175897115"
+        },
+        {
+            "descr": "Slot 18 depth",
+            "expr": "0.772861505807345",
+            "name": "slot_depth_18",
+            "value": "0.772861505807345"
+        },
+        {
+            "descr": "Slot 17 depth",
+            "expr": "0.845460585347423",
+            "name": "slot_depth_17",
+            "value": "0.845460585347423"
+        },
+        {
+            "descr": "Slot 16 depth",
+            "expr": "0.856453543294496",
+            "name": "slot_depth_16",
+            "value": "0.856453543294496"
+        },
+        {
+            "descr": "Slot 15 depth",
+            "expr": "0.84832953525262",
+            "name": "slot_depth_15",
+            "value": "0.84832953525262"
+        },
+        {
+            "descr": "Slot 14 depth",
+            "expr": "0.835041848917267",
+            "name": "slot_depth_14",
+            "value": "0.835041848917267"
+        },
+        {
+            "descr": "Slot 13 depth",
+            "expr": "0.820150383410063",
+            "name": "slot_depth_13",
+            "value": "0.820150383410063"
+        },
+        {
+            "descr": "Slot 12 depth",
+            "expr": "0.812995073288814",
+            "name": "slot_depth_12",
+            "value": "0.812995073288814"
+        },
+        {
+            "descr": "Slot 11 depth",
+            "expr": "0.830307358145157",
+            "name": "slot_depth_11",
+            "value": "0.830307358145157"
+        },
+        {
+            "descr": "Slot 100 depth",
+            "expr": "0.109151296146653",
+            "name": "slot_depth_100",
+            "value": "0.109151296146653"
+        },
+        {
+            "descr": "Slot 10 depth",
+            "expr": "0.866378015242506",
+            "name": "slot_depth_10",
+            "value": "0.866378015242506"
+        },
+        {
+            "descr": "Slot 1 depth",
+            "expr": "0.961143278531262",
+            "name": "slot_depth_1",
+            "value": "0.961143278531262"
+        },
+        {
+            "descr": "Slot 99 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_99",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 98 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_98",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 97 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_97",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 96 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_96",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 95 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_95",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 94 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_94",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 93 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_93",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 92 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_92",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 91 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_91",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 90 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_90",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 9 angle",
+            "expr": "16.5246760983132",
+            "name": "slot_angle_9",
+            "value": "16.5246760983132"
+        },
+        {
+            "descr": "Slot 89 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_89",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 88 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_88",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 87 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_87",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 86 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_86",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 85 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_85",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 84 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_84",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 83 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_83",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 82 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_82",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 81 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_81",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 80 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_80",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 8 angle",
+            "expr": "14.245202726743",
+            "name": "slot_angle_8",
+            "value": "14.245202726743"
+        },
+        {
+            "descr": "Slot 79 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_79",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 78 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_78",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 77 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_77",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 76 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_76",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 75 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_75",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 74 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_74",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 73 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_73",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 72 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_72",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 71 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_71",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 70 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_70",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 7 angle",
+            "expr": "12.7180228147669",
+            "name": "slot_angle_7",
+            "value": "12.7180228147669"
+        },
+        {
+            "descr": "Slot 69 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_69",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 68 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_68",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 67 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_67",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 66 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_66",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 65 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_65",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 64 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_64",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 63 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_63",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 62 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_62",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 61 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_61",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 60 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_60",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 6 angle",
+            "expr": "11.5335725914214",
+            "name": "slot_angle_6",
+            "value": "11.5335725914214"
+        },
+        {
+            "descr": "Slot 59 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_59",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 58 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_58",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 57 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_57",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 56 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_56",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 55 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_55",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 54 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_54",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 53 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_53",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 52 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_52",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 51 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_51",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 50 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_50",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 5 angle",
+            "expr": "10.3291370591336",
+            "name": "slot_angle_5",
+            "value": "10.3291370591336"
+        },
+        {
+            "descr": "Slot 49 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_49",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 48 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_48",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 47 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_47",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 46 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_46",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 45 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_45",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 44 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_44",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 43 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_43",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 42 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_42",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 41 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_41",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 40 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_40",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 4 angle",
+            "expr": "9.2913823191968",
+            "name": "slot_angle_4",
+            "value": "9.2913823191968"
+        },
+        {
+            "descr": "Slot 39 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_39",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 38 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_38",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 37 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_37",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 36 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_36",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 35 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_35",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 34 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_34",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 33 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_33",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 32 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_32",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 31 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_31",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 30 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_30",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 3 angle",
+            "expr": "8.91524488559543",
+            "name": "slot_angle_3",
+            "value": "8.91524488559543"
+        },
+        {
+            "descr": "Slot 29 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_29",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 28 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_28",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 27 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_27",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 26 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_26",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 25 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_25",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 24 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_24",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 23 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_23",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 22 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_22",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 21 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_21",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 20 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_20",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 2 angle",
+            "expr": "9.17070420583159",
+            "name": "slot_angle_2",
+            "value": "9.17070420583159"
+        },
+        {
+            "descr": "Slot 19 angle",
+            "expr": "34.9571528146153",
+            "name": "slot_angle_19",
+            "value": "34.9571528146153"
+        },
+        {
+            "descr": "Slot 18 angle",
+            "expr": "25.0968075075396",
+            "name": "slot_angle_18",
+            "value": "25.0968075075396"
+        },
+        {
+            "descr": "Slot 17 angle",
+            "expr": "20.8443856065253",
+            "name": "slot_angle_17",
+            "value": "20.8443856065253"
+        },
+        {
+            "descr": "Slot 16 angle",
+            "expr": "20.0819554510372",
+            "name": "slot_angle_16",
+            "value": "20.0819554510372"
+        },
+        {
+            "descr": "Slot 15 angle",
+            "expr": "20.6492097998717",
+            "name": "slot_angle_15",
+            "value": "20.6492097998717"
+        },
+        {
+            "descr": "Slot 14 angle",
+            "expr": "21.5322502193825",
+            "name": "slot_angle_14",
+            "value": "21.5322502193825"
+        },
+        {
+            "descr": "Slot 13 angle",
+            "expr": "22.46361459902",
+            "name": "slot_angle_13",
+            "value": "22.46361459902"
+        },
+        {
+            "descr": "Slot 12 angle",
+            "expr": "22.8916335997551",
+            "name": "slot_angle_12",
+            "value": "22.8916335997551"
+        },
+        {
+            "descr": "Slot 11 angle",
+            "expr": "21.8346400339363",
+            "name": "slot_angle_11",
+            "value": "21.8346400339363"
+        },
+        {
+            "descr": "Slot 100 angle",
+            "expr": "44.5805223723697",
+            "name": "slot_angle_100",
+            "value": "44.5805223723697"
+        },
+        {
+            "descr": "Slot 10 angle",
+            "expr": "19.3573472068667",
+            "name": "slot_angle_10",
+            "value": "19.3573472068667"
+        },
+        {
+            "descr": "Slot 1 angle",
+            "expr": "9.27945614578127",
+            "name": "slot_angle_1",
+            "value": "9.27945614578127"
+        },
+        {
+            "descr": "Number of slots",
+            "expr": "20",
+            "name": "num_slots",
+            "value": "20"
+        },
+        {
+            "expr": "20",
+            "name": "num_ff_monitors",
+            "value": "20"
+        },
+        {
+            "expr": "0.0396875*wavelength_centre*0.3",
+            "name": "metal_thickness",
+            "value": "0.148725164710938"
+        },
+        {
+            "descr": "Distance from last slot to termination",
+            "expr": "10.6956552911569",
+            "name": "inset_from_termination",
+            "value": "10.6956552911569"
+        },
+        {
+            "descr": "Distance from feed to first slot",
+            "expr": "10.6956552911569",
+            "name": "inset_from_feed",
+            "value": "10.6956552911569"
+        },
+        {
+            "expr": "frequency_centre*0.8",
+            "name": "frequency_minimum",
+            "value": "19.2"
+        },
+        {
+            "expr": "frequency_centre*1.2",
+            "name": "frequency_maximum",
+            "value": "28.8"
+        },
+        {
+            "expr": "1",
+            "name": "cnt",
+            "value": "1"
+        },
+        {
+            "descr": "Speed of light (corrected for the model units)",
+            "expr": "CLight*1E-06",
+            "name": "c0",
+            "value": "299.792458"
+        }
+    ],
+    "version": 1
+}

@@ -1,0 +1,1888 @@
+Frontend-Node:  ==============================
+                Mesher selection: manual: FPBA
+                ==============================
+
+==============================================================================================
+[Boundaries] - MCalc
+open-add-space, open-add-space, open-add-space, open-add-space, open-add-space, open-add-space
+==============================================================================================
+
+========================================
+[Mesh] Matrix calculation - NO ACIS mode
+========================================
+
+=============================
+[Mesh] Expansion: 0 0 0 0 0 0
+=============================
+
+=================================================================================
+ - hardware info
+   + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+   + sockets                     : 1
+   + cores per socket            : 6
+   + hyperthreading              : on
+   + ht-units                    : 2
+   + max cpuid level             : 13
+   + max cpuid ext. level        : 32
+   + numa nodes                  : 1
+   + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+max id per cpu: 128
+SMT mask: 1
+Core mask: 7e
+Package mask: ffffff80
+set results:
+  - packages: 1
+  - cores: 6
+  - smts: 2
+generate core map, new implementation
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+packages: 1
+cores   : 6
+ht units: 2
+ - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+ - desired group         : 0
+ - num cores available   : 12
+ - active core list from affinity: 
+   + num accessible procs          : 12
+   + num logical procs             : 12
+   + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+   + sockets ids in                : 0
+   + core list                  (1): 0,2,4,6,8,10
+ - active cores          : 0,2,4,6,8,10
+ - hyperthreading        : on
+ - allowed core ids      : 0,2,4,6,8,10
+ - allowed core ids (aff): 101010 101010 
+ - used mask (string)    : 101010 101010 
+=================================================================================
+
+======================================================================================
+Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+Workflow: PBA matrix coefficients
+Operation: [acis, fpba, meshfill, bg, port-path, port-domain, tst, coeff, surface-imp]
+Architecture: Windows, ID: AMD64
+System Windows-64bit
+Using processor group 0/1
+Matrix calculation information:
+# of Nodes: 0
+Concurrency: 0
+Start ID: 0
+Node ID: 0
+HEX Mesh information:
+Hex mesh: global: [hxr o(0 | 0 | 0) s(12 | 4 | 18) np (no TSTs): 864] 
+======================================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Sat Sat Jun 14 13:40:16 2025
+started: calculating matrix coefficients
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+===========================================================
+Matrix computation (PBA)
+	[Perfect Boundary Approximation (PBA), version: legacy]
+	[GPU acceleration: off (not supported)]
+Version: 2024.5 Release from 2024-06-14 (change 1285309)
+PBA version 2013051613
+Sub-Workflow: FPBA-1x1-TST1-Facets-QQ
+Workflow updated: -
+Sat Sat Jun 14 13:40:16 2025
+===========================================================
+
+----------------------------------------------
+Used point accuracy enhancement value: 71.00%.
+----------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Geometry processing log
+	PEC background is represented by CAD geometry: false
+	no entries
+------------------------------------------------------------------------------------------------
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 1 | </cst/Boundaries/> Low^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 2 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 3 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 4 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 5 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 6 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+=========================================
+************************************************************************************************
+General settings
+	PBA version: legacy
+------------------------------------------------------------------------------------------------
+Geometry processor: legacy
+	Geo accuracy: 71.000000
+	Watertightness check: true
+	Self intersection check: false
+	Inheritance (all): false
+	Normal dominance (all): false
+	Normal dominance (ports): false
+	Flanges hollow: true
+	One shape per flange: false
+	Multi threading: false
+		max # of threads used: 1
+		requested max # of threads: 1
+		representation: ppm
+		method: single thread
+		retry: no
+------------------------------------------------------------------------------------------------
+CAD processing settings are set to default
+------------------------------------------------------------------------------------------------
+Connectivity settings
+	Workflow selection: 0
+	Workflow version: 20170101
+	Gap detection: false
+	Gap detection version: 1
+	TST version: 1
+	QQ workflow: true
+	CoCo workflow: true
+	Legacy topology: false
+	Connectivity check: false
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+CAD Processing Version Info
+------------------------------------------------------------------------------------------------
+Success method:	fb-single-thread-21
+************************************************************************************************
+
+-------------------------------------------------
+Geometry representation: extended-edge
+Shared memory: none
+FARM allocation scheme: BBM
+Parallelization: off
+Gap-Detection activated for FARM-topology. Gaps are resolved, even partially.: gap tolerance value is 0.001000 and mesh geometry scale is 0.001000
+
+----------------------
+Acceleration mode: CPU
+----------------------
+
+Port homogenization method: FARM voxels copy
+-------------------
+TST Statistics:
+E Split (0 | 0 | 0)
+E Adapt (0 | 0 | 0)
+B Split (0 | 0 | 0)
+B Adapt (0 | 0 | 0)
+-------------------
+
+------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+settings for port mode calculation
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PBA fill limit is applied in inverse mode.
+PBA fill limit is applied on faces filled with at least 98.25% metal material.
+--------------------------------------------------------------
+detailed accuracy settings:
+--------------------------------------------------------------
+augmented fill limit:       true
+augmented fill limit value: 98.25
+automatic fill limit:       true
+early fill limit:           true
+inverse fill limit:         true
+model complexity:           0.00
+legacy 2015:                false
+fixed point accuracy:       false
+minimum point accuracy:     0
+mesh step inheritance:      false
+accuracy mode:              
+------------------------------------------------------------------------------
+
+=================================
+Finished matrix computation (PBA)
+=================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Sat Sat Jun 14 13:40:16 2025
+Resource usage for calculating matrix coefficients:
+	Runtime                          00:00:00.00229
+	Peak Memory Usage:                        16 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+--------------------------------
+# of staircase filled cells: 0
+# of staircase filled areas: 0
+# of staircase filled edges: 0
+# of faces above fill limit: 0
+# of edges with FPBA topology: 0
+--------------------------------
+
+Frontend-Node:  ======================
+                Mesher selection: FPBA
+                ======================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Sat Sat Jun 14 13:40:19 2025
+started: parallelization control
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+=================================================================================
+ - hardware info
+   + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+   + sockets                     : 1
+   + cores per socket            : 6
+   + hyperthreading              : on
+   + ht-units                    : 2
+   + max cpuid level             : 13
+   + max cpuid ext. level        : 32
+   + numa nodes                  : 1
+   + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+max id per cpu: 128
+SMT mask: 1
+Core mask: 7e
+Package mask: ffffff80
+set results:
+  - packages: 1
+  - cores: 6
+  - smts: 2
+generate core map, new implementation
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+packages: 1
+cores   : 6
+ht units: 2
+ - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+ - desired group         : 0
+ - num cores available   : 12
+ - active core list from affinity: 
+   + num accessible procs          : 12
+   + num logical procs             : 12
+   + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+   + sockets ids in                : 0
+   + core list                  (1): 0,2,4,6,8,10
+ - active cores          : 0,2,4,6,8,10
+ - hyperthreading        : on
+ - allowed core ids      : 0,2,4,6,8,10
+ - allowed core ids (aff): 101010 101010 
+ - used mask (string)    : 101010 101010 
+=================================================================================
+
+===========================================================================
+Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+Workflow: QQ-Facets
+Operation: [acis, fpba, bg]
+Architecture: Windows, ID: AMD64
+System Windows-64bit
+Using processor group 0/1
+Matrix calculation information:
+# of Nodes: 0
+Concurrency: 0
+Start ID: 0
+Node ID: 0
+HEX Mesh information:
+Hex mesh: global: [hxr o(0 | 0 | 0) s(20 | 489 | 26) np (no TSTs): 254280] 
+===========================================================================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Sat Sat Jun 14 13:40:19 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+========================================================================
+Processing CAD model (for field results)
+	[Improved internal geometry representation]
+	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
+Version: 2024.5 Release from 2024-06-14 (change 1285309)
+PBA version 2013051613
+Sub-Workflow: Facets-QQ-GEX
+Workflow updated: -
+Sat Sat Jun 14 13:40:19 2025
+========================================================================
+
+===========================================
+Finished CAD processing (for field results)
+===========================================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Sat Sat Jun 14 13:40:20 2025
+Resource usage for processing CAD model:
+	Runtime                 00:00:00.00636
+	Peak Memory Usage:               38 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Sat Sat Jun 14 13:40:20 2025
+started: processing CAD model
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+========================================================================
+Processing CAD model
+	[Improved internal geometry representation]
+	[Accuracy improvement for long shapes in inhomogeneous mesh regions]
+Version: 2024.5 Release from 2024-06-14 (change 1285309)
+PBA version 2013051613
+Sub-Workflow: Facets-QQ-GEX
+Workflow updated: -
+Sat Sat Jun 14 13:40:20 2025
+========================================================================
+
+---------------------------------------------
+Used point accuracy enhancement value: 0.00%.
+---------------------------------------------
+
+=============================================================================
+Mesh statistics:
+-----------------------------------------------------------------------------
+Minimum edge length (x): 0.496 @ mesh line 5 (x)
+Maximum edge length (x): 0.87 @ mesh line 0 (x)
+Minimum face area (x): 0.0261 @ mesh lines 64 | 18 (y | z)
+Maximum face area (x): 1.08 @ mesh lines 74 | 12 (y | z)
+Minimum edge length (y): 0.0594 @ mesh line 64 (y)
+Maximum edge length (y): 1.08 @ mesh line 74 (y)
+Minimum face area (y): 0.218 @ mesh lines 18 | 5 (z | x)
+Maximum face area (y): 0.877 @ mesh lines 12 | 0 (z | x)
+Minimum edge length (z): 0.44 @ mesh line 18 (z)
+Maximum edge length (z): 1.01 @ mesh line 12 (z)
+Minimum face area (z): 0.0295 @ mesh lines 5 | 64 (x | y)
+Maximum face area (z): 0.936 @ mesh lines 0 | 74 (x | y)
+Maximum mesh face aspect ratio (x): 17 : 1.0  @ mesh lines 64 | 12 (y | z)
+Maximum mesh face aspect ratio (y): 2.03 : 1.0  @ mesh lines 12 | 5 (z | x)
+Maximum mesh face aspect ratio (z): 14.7 : 1.0  @ mesh lines 0 | 64 (x | y)
+=============================================================================
+
+============================================================================
+Available resources to store TST cells: 2147229367 (844435.02% of mesh size)
+============================================================================
+
+------------------------------------------------------------------------------------------------
+Geometry processing log
+	PEC background is represented by CAD geometry: false
+	Background shape: added
+	Number of CAD shapes: 1
+	Number of lumps: 0
+------------------------------------------------------------------------------------------------
+=========================================
+== CST Matrix Calculation Priority Log ==
+=========================================
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Group | Shape-ID | ShapeName | Material | User-priority | 2D/3D-Geometry | Material-attributes | Shape-attributes | Feature-ID | Schemetype
+1 | 2 | </cst/Boundaries/> Low^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 3 | </cst/Boundaries/> Low^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 4 | </cst/Boundaries/> Low^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 5 | </cst/Boundaries/> Up^X | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 6 | </cst/Boundaries/> Up^Y | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+1 | 7 | </cst/Boundaries/> Up^Z | $NFSMaterial$ | n/a | no | normal.vacuum. | boundary. | n/a | FIT_TD
+2 | 1 | antenna:waveguide | PEC | n/a | yes | pec. | solid. | n/a | FIT_TD
+=========================================
+************************************************************************************************
+General settings
+	PBA version: legacy
+------------------------------------------------------------------------------------------------
+Geometry processor: legacy
+	Geo accuracy: 0.000000
+	Watertightness check: true
+	Self intersection check: false
+	Inheritance (all): false
+	Normal dominance (all): false
+	Normal dominance (ports): false
+	Flanges hollow: true
+	One shape per flange: false
+	Multi threading: false
+		max # of threads used: 1
+		requested max # of threads: 1
+		representation: ppm
+		method: single thread
+		retry: no
+------------------------------------------------------------------------------------------------
+CAD processing settings are set to default
+------------------------------------------------------------------------------------------------
+Connectivity settings
+	Workflow selection: 0
+	Workflow version: 20170101
+	Gap detection: false
+	Gap detection version: 1
+	TST version: 1
+	QQ workflow: true
+	CoCo workflow: true
+	Legacy topology: false
+	Connectivity check: false
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+CAD Processing Version Info
+	ACIS version installed:	33.0.1
+	ACIS version used:	33.0.1
+------------------------------------------------------------------------------------------------
+Success method:	fb-single-thread-21
+************************************************************************************************
+
+=======================
+Finished CAD processing
+=======================
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Sat Sat Jun 14 13:40:20 2025
+Resource usage for processing CAD model:
+	Runtime                 00:00:00.00211
+	Peak Memory Usage:               38 MB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+------------------------------------------------------------
+Parallelization Info
+------------------------------------------------------------
+Hyperthreading active: true
+Hyperthreading used: false
+Number of concurrent threads: 4
+Number of concurrent threads using GPU: 0
+Number of node domains: 8
+Domains-to-threads scaling: 2
+Average FI domain size: 1e+04
+Nice mode: true
+Delayed matrix calculation start: false
+Load balancing: Version 20090403
+Number of mesh fill domains: 17
+Memory downscale: 1
+Shared memory representation: none
+CPU load: 66.67%
+Emptiness: 0.00%
+Hex mesh complexity: 0.23180
+Geometric complexity: 0.01072
+lower size limit of domain (1D): 60
+------------------------------------------------------------
+Node order
+2, 5, 4, 3, 7, 1, 6, 0
+------------------------------------------------------------
+
+-------------------------------------------------------------------
+Matrix calculation job submit section 0
+Currently running jobs: 0
+Waiting jobs: 8
+Concurrency for section: 4/4
+Memory physically installed: 34.2816 GB
+Memory currently available: 18.8856 GB
+Memory already used: 15.3961 GB
+Matrix calculation @ 1xN-Node 0002
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 140 MB, tightness: 0.74 %
+	GPU acceleration: off
+	Processor group: 0
+Matrix calculation @ 1xN-Node 0005
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 138 MB, tightness: 0.73 %
+	GPU acceleration: off
+	Processor group: 0
+Matrix calculation @ 1xN-Node 0004
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 142 MB, tightness: 0.75 %
+	GPU acceleration: off
+	Processor group: 0
+Matrix calculation @ 1xN-Node 0003
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 137 MB, tightness: 0.73 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 4
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Matrix calculation job submit section 1
+Currently running jobs: 3
+Waiting jobs: 4
+Concurrency for section: 1/4
+Memory physically installed: 34.2816 GB
+Memory currently available: 18.7971 GB
+Memory already used: 15.4845 GB
+Matrix calculation @ 1xN-Node 0007
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 136 MB, tightness: 0.72 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 4
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Matrix calculation job submit section 2
+Currently running jobs: 3
+Waiting jobs: 3
+Concurrency for section: 1/4
+Memory physically installed: 34.2816 GB
+Memory currently available: 18.8813 GB
+Memory already used: 15.4004 GB
+Matrix calculation @ 1xN-Node 0001
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 135 MB, tightness: 0.72 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 4
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Matrix calculation job submit section 3
+Currently running jobs: 3
+Waiting jobs: 2
+Concurrency for section: 1/4
+Memory physically installed: 34.2816 GB
+Memory currently available: 18.8808 GB
+Memory already used: 15.4008 GB
+Matrix calculation @ 1xN-Node 0006
+	Mesh coverage: 2945000.00 %
+	Estimated peak memory usage per node: 135 MB, tightness: 0.72 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 4
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+Matrix calculation job submit section 4
+Currently running jobs: 3
+Waiting jobs: 1
+Concurrency for section: 1/4
+Memory physically installed: 34.2816 GB
+Memory currently available: 18.8811 GB
+Memory already used: 15.4005 GB
+Matrix calculation @ 1xN-Node 0000
+	Mesh coverage: 2897500.00 %
+	Estimated peak memory usage per node: 131 MB, tightness: 0.69 %
+	GPU acceleration: off
+	Processor group: 0
+Node distribution on 1 processor group: 4
+-------------------------------------------------------------------
+
+------------------------------------
+Mesh: # of points excl. TSTs: 254280
+      # of points incl. TSTs: 254280
+------------------------------------
+
+===========================================
+Data rearrangement statistics:
+Disk IO directories:	00:00:00.0019
+Disk IO node domain files:	00:00:00.0322
+Disk IO FI domain files:	00:00:00.0000
+Disk IO meta information:	00:00:00.0021
+Sequential merge (TST):	00:00:00.0000
+===========================================
+
+1xN000:  ===================================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, open-add-space, mpi, open-add-space, open-add-space
+         ===================================================================================
+
+1xN000:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN000:  =============================
+         [Mesh] Expansion: 0 0 0 1 0 0
+         =============================
+
+1xN000:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0000,0000) e(0020,0062,0026)
+         [Mesh] e-1xN: o(0000,0000,0000) e(0020,0063,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | 0)
+         ==================================================
+
+1xN000:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN000:  ===========================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 7
+         Node ID: 0
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 0 | 0) s(20 | 62 | 26) np (no TSTs): 32240]
+         Hex mesh: extended: [hxr o(0 | 0 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         ===========================================================================
+
+1xN000:  -----------------------------------------------------
+         Memory status on node "1xN000" for matrix calculation
+         	Estimated memory consumption: 0.131024 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8615 GB
+         	Available relative memory: 55.0193 %
+         -----------------------------------------------------
+
+1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:25 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN000:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:25 2025
+         ===========================================================
+
+1xN000:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN000:
+
+
+
+1xN000:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN000:  Port homogenization method: FARM voxels copy
+1xN000:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN000:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN000:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:29 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00407
+         	Peak Memory Estimation:                  131 MB
+         	Peak Memory Usage:                        57 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN001:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN001:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN001:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN001:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0060,0000) e(0020,0123,0026)
+         [Mesh] e-1xN: o(0000,0059,0000) e(0020,0124,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN001:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN001:  ============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 5
+         Node ID: 1
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 60 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 59 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         ============================================================================
+
+1xN001:  -----------------------------------------------------
+         Memory status on node "1xN001" for matrix calculation
+         	Estimated memory consumption: 0.135111 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8615 GB
+         	Available relative memory: 55.0194 %
+         -----------------------------------------------------
+
+1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:25 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN001:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:25 2025
+         ===========================================================
+
+1xN001:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN001:
+
+
+
+1xN001:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN001:  Port homogenization method: FARM voxels copy
+1xN001:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN001:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN001:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:29 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00571
+         	Peak Memory Estimation:                  135 MB
+         	Peak Memory Usage:                        62 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN002:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN002:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN002:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN002:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0121,0000) e(0020,0184,0026)
+         [Mesh] e-1xN: o(0000,0120,0000) e(0020,0185,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN002:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN002:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 0
+         Node ID: 2
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 121 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 120 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         =============================================================================
+
+1xN002:  -----------------------------------------------------
+         Memory status on node "1xN002" for matrix calculation
+         	Estimated memory consumption: 0.139554 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8861 GB
+         	Available relative memory: 55.0909 %
+         -----------------------------------------------------
+
+1xN002:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:21 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN002:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:21 2025
+         ===========================================================
+
+1xN002:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN002:
+
+
+
+1xN002:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN002:  Port homogenization method: FARM voxels copy
+1xN002:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN002:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN002:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN002:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:24 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00558
+         	Peak Memory Estimation:                  140 MB
+         	Peak Memory Usage:                        66 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN003:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN003:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN003:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN003:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0182,0000) e(0020,0245,0026)
+         [Mesh] e-1xN: o(0000,0181,0000) e(0020,0246,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN003:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN003:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 3
+         Node ID: 3
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 182 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 181 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         =============================================================================
+
+1xN003:  -----------------------------------------------------
+         Memory status on node "1xN003" for matrix calculation
+         	Estimated memory consumption: 0.137254 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.871 GB
+         	Available relative memory: 55.0469 %
+         -----------------------------------------------------
+
+1xN003:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:21 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN003:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:21 2025
+         ===========================================================
+
+1xN003:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN003:
+
+
+
+1xN003:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN003:  Port homogenization method: FARM voxels copy
+1xN003:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN003:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN003:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN003:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:24 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00448
+         	Peak Memory Estimation:                  137 MB
+         	Peak Memory Usage:                        66 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN004:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN004:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN004:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN004:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0243,0000) e(0020,0306,0026)
+         [Mesh] e-1xN: o(0000,0242,0000) e(0020,0307,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN004:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN004:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 2
+         Node ID: 4
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 243 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 242 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         =============================================================================
+
+1xN004:  -----------------------------------------------------
+         Memory status on node "1xN004" for matrix calculation
+         	Estimated memory consumption: 0.142087 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8733 GB
+         	Available relative memory: 55.0538 %
+         -----------------------------------------------------
+
+1xN004:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:21 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN004:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:21 2025
+         ===========================================================
+
+1xN004:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN004:
+
+
+
+1xN004:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN004:  Port homogenization method: FARM voxels copy
+1xN004:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN004:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN004:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN004:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:24 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00423
+         	Peak Memory Estimation:                  142 MB
+         	Peak Memory Usage:                        65 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN005:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN005:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN005:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN005:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0304,0000) e(0020,0367,0026)
+         [Mesh] e-1xN: o(0000,0303,0000) e(0020,0368,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN005:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN005:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 1
+         Node ID: 5
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 304 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 303 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         =============================================================================
+
+1xN005:  -----------------------------------------------------
+         Memory status on node "1xN005" for matrix calculation
+         	Estimated memory consumption: 0.137678 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8667 GB
+         	Available relative memory: 55.0344 %
+         -----------------------------------------------------
+
+1xN005:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:21 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN005:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:21 2025
+         ===========================================================
+
+1xN005:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN005:
+
+
+
+1xN005:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN005:  Port homogenization method: FARM voxels copy
+1xN005:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN005:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN005:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN005:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:24 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00581
+         	Peak Memory Estimation:                  138 MB
+         	Peak Memory Usage:                        68 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN006:  ========================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, mpi, open-add-space, open-add-space
+         ========================================================================
+
+1xN006:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN006:  ==============================
+         [Mesh] Expansion: 0 0 -1 1 0 0
+         ==============================
+
+1xN006:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0365,0000) e(0020,0428,0026)
+         [Mesh] e-1xN: o(0000,0364,0000) e(0020,0429,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN006:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN006:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 6
+         Node ID: 6
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 365 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 364 | 0) s(20 | 65 | 26) np (no TSTs): 33800]
+         =============================================================================
+
+1xN006:  -----------------------------------------------------
+         Memory status on node "1xN006" for matrix calculation
+         	Estimated memory consumption: 0.135055 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8615 GB
+         	Available relative memory: 55.0194 %
+         -----------------------------------------------------
+
+1xN006:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:25 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN006:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:25 2025
+         ===========================================================
+
+1xN006:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN006:
+
+
+
+1xN006:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN006:  Port homogenization method: FARM voxels copy
+1xN006:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN006:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN006:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN006:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:29 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00607
+         	Peak Memory Estimation:                  135 MB
+         	Peak Memory Usage:                        62 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+1xN007:  ===================================================================================
+         [Boundaries] - MCalc
+         open-add-space, open-add-space, mpi, open-add-space, open-add-space, open-add-space
+         ===================================================================================
+
+1xN007:  ========================================
+         [Mesh] Matrix calculation - NO ACIS mode
+         [Mesh] 1xN MPI or parallelization mode
+         ========================================
+
+1xN007:  ==============================
+         [Mesh] Expansion: 0 0 -1 0 0 0
+         ==============================
+
+1xN007:  ==================================================
+         [Mesh] world: o(0000,0000,0000) e(0020,0489,0026)
+         [Mesh] l-1xN: o(0000,0426,0000) e(0020,0489,0026)
+         [Mesh] e-1xN: o(0000,0425,0000) e(0020,0489,0026)
+         [Mesh] g-MPI: not available
+         [Mesh] bound offset: (0 | 0 | -1)
+         ==================================================
+
+1xN007:  =================================================================================
+          - hardware info
+            + cpu name                    : AMD Ryzen 5 3600 6-Core Processor
+            + sockets                     : 1
+            + cores per socket            : 6
+            + hyperthreading              : on
+            + ht-units                    : 2
+            + max cpuid level             : 13
+            + max cpuid ext. level        : 32
+            + numa nodes                  : 1
+            + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
+         apic ids           : 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         apic ids (fallback): 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         from cpu registers: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         fallback: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         combined: 0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13
+         max id per cpu: 128
+         SMT mask: 1
+         Core mask: 7e
+         Package mask: ffffff80
+         set results:
+           - packages: 1
+           - cores: 6
+           - smts: 2
+         generate core map, new implementation
+         0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+         packages: 1
+         cores   : 6
+         ht units: 2
+          - pinning rule in use   : PINNING_RULE_MCALC_SKIP_ALL
+          - desired group         : 0
+          - num cores available   : 12
+          - active core list from affinity:
+            + num accessible procs          : 12
+            + num logical procs             : 12
+            + current affinity (env)        : 0,1,2,3,4,5,6,7,8,9,10,11
+            + sockets ids in                : 0
+            + core list                  (1): 0,1,2,3,4,5,6,7,8,9,10,11
+          - active cores          : 0,1,2,3,4,5,6,7,8,9,10,11
+          - hyperthreading        : on
+          - skip pinning: + allowed number of sockets = available number of sockets
+                          + hyperthreading allowed by solver
+         =================================================================================
+
+1xN007:  =============================================================================
+         Version: 2024.5 Release from 2024-06-14 (change 1285309) [Release]
+         Workflow: PBA matrix coefficients
+         Operation: [fpba, meshfill, bg, port-path, tst, coeff, surface-imp]
+         Architecture: Windows, ID: AMD64
+         System Windows-64bit
+         Using processor group 0/1
+         Matrix calculation information:
+         # of Nodes: 8
+         Concurrency: 4
+         Start ID: 4
+         Node ID: 7
+         HEX Mesh information:
+         Hex mesh: node: [hxr o(0 | 426 | 0) s(20 | 63 | 26) np (no TSTs): 32760]
+         Hex mesh: extended: [hxr o(0 | 425 | 0) s(20 | 64 | 26) np (no TSTs): 33280]
+         =============================================================================
+
+1xN007:  -----------------------------------------------------
+         Memory status on node "1xN007" for matrix calculation
+         	Estimated memory consumption: 0.136098 GB
+         	Physical memory installed: 34.2816 GB
+         	Available physical memory: 18.8823 GB
+         	Available relative memory: 55.0798 %
+         -----------------------------------------------------
+
+1xN007:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+         Sat Sat Jun 14 13:40:25 2025
+         started: calculating matrix coefficients per node
+         >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1xN007:  ===========================================================
+         Matrix computation (PBA)
+         	[Perfect Boundary Approximation (PBA), version: legacy]
+         	[GPU acceleration: off (not supported)]
+         Version: 2024.5 Release from 2024-06-14 (change 1285309)
+         PBA version 2013051613
+         Sub-Workflow: FPBA-1xN-TST1-Node
+         Workflow updated: -
+         Sat Sat Jun 14 13:40:25 2025
+         ===========================================================
+
+1xN007:  -------------------------------------------------
+         Geometry representation: compact
+         Shared memory: none
+         FARM allocation scheme: BBM
+         Parallelization: on, used
+
+1xN007:
+
+
+
+1xN007:  ----------------------
+         Acceleration mode: CPU
+         ----------------------
+
+1xN007:  Port homogenization method: FARM voxels copy
+1xN007:  -------------------
+         TST Statistics:
+         E Split (0 | 0 | 0)
+         E Adapt (0 | 0 | 0)
+         B Split (0 | 0 | 0)
+         B Adapt (0 | 0 | 0)
+         -------------------
+
+1xN007:  ------------------------------------------------------------------------------
+         PBA fill limit is applied in inverse mode.
+         PBA fill limit is applied on faces filled with at least 96.95% metal material.
+         --------------------------------------------------------------
+         detailed accuracy settings:
+         --------------------------------------------------------------
+         augmented fill limit:       true
+         augmented fill limit value: 96.95
+         automatic fill limit:       true
+         early fill limit:           true
+         inverse fill limit:         true
+         model complexity:           0.00
+         legacy 2015:                false
+         fixed point accuracy:       false
+         minimum point accuracy:     0
+         mesh step inheritance:      false
+         accuracy mode:
+         ------------------------------------------------------------------------------
+
+1xN007:  =================================
+         Finished matrix computation (PBA)
+         =================================
+
+1xN007:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+         Sat Sat Jun 14 13:40:28 2025
+         Resource usage for calculating matrix coefficients per node:
+         	Runtime                          00:00:03.00414
+         	Peak Memory Estimation:                  136 MB
+         	Peak Memory Usage:                        59 MB
+         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Sat Sat Jun 14 13:40:35 2025
+Resource usage for parallelization control:
+	Runtime                      00:00:16.00522
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+------------------------------------------------------------------------------------------------------------------------------
+PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 2[ms]
+ConnectivityAXG - 
+------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------
+# of staircase filled cells: 0
+# of staircase filled areas: 0
+# of staircase filled edges: 0
+# of faces above fill limit: 0
+# of edges with FPBA topology: 0
+--------------------------------
+
