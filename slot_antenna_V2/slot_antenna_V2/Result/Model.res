@@ -171,46 +171,6 @@ treepath=s:1D Results
 
 type=s:XYSIGNAL
 subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Fit)
-files=s:Silver_Z_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Fit)
-files=s:Silver_Z_im.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Theory)
-files=s:Silver_Z_datalist_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Theory)
-files=s:Silver_Z_datalist_im.sig
-
-type=s:XYSIGNAL
-subtype=s:user
 problemclass=s::4:3
 visibility=s:visible
 creation=s:internal
@@ -895,4 +855,44 @@ result=s:1
 parametric=s:P
 treepath=s:1D Results\AutomaticRunInformation
 files=s:AutomaticRunInformation
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Fit)
+files=s:Silver_Z_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Fit)
+files=s:Silver_Z_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Theory)
+files=s:Silver_Z_datalist_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Theory)
+files=s:Silver_Z_datalist_im.sig
 

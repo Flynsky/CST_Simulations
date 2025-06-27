@@ -1,0 +1,71 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-06-23 15:27:45
+
+  Evaluating 'GainPhi0': 0 s
+  Evaluating 'GainPhi90': 1 s
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 1 s
+
+  Total time: 3 s  ( = 0 h, 0 m, 3 s )
+
+Template based post-processing finished at: 2025-06-23 15:27:48
+----------------------------------------------------------------------------------------
+Template based post-processing started at: 2025-06-25 18:33:29
+
+  Evaluating 'GainPhi0': 1 s
+  Evaluating 'GainPhi90': 1 s
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 0 s
+  Evaluating 'Directivity, constant Phi=0': 1 s
+
+  Total time: 3 s  ( = 0 h, 0 m, 3 s )
+
+Template based post-processing finished at: 2025-06-25 18:33:32
+----------------------------------------------------------------------------------------
+Template based post-processing started at: 2025-06-25 19:02:52
+
+  Error: (9999) No calculated Farfield Result with correct excitation string found.(Line:1660)
+  Evaluating 'GainPhi0': 0 s
+  Evaluating 'GainPhi90': 0 s
+  Error: (9999) Could not find result '2D/3D Results\E-Field\e-field (f=24;z=4.9605942990365) [1]'. Please check your settings.(Line:1846)
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 0 s
+  Evaluating 'Directivity, constant Phi=0': 1 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2025-06-25 19:02:54
+----------------------------------------------------------------------------------------
+Template based post-processing started at: 2025-06-26 14:20:54
+
+  Error: (9999) No calculated Farfield Result with correct excitation string found.(Line:1660)
+  Evaluating 'GainPhi0': 1 s
+  Evaluating 'GainPhi90': 0 s
+  Error: (9999) Could not find result '2D/3D Results\E-Field\e-field (f=24;z=4.9605942990365) [1]'. Please check your settings.(Line:1846)
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 1 s
+  Evaluating 'Directivity, constant Phi=0': 0 s
+
+  Total time: 3 s  ( = 0 h, 0 m, 3 s )
+
+Template based post-processing finished at: 2025-06-26 14:20:57
+----------------------------------------------------------------------------------------
+Template based post-processing started at: 2025-06-26 14:45:27
+
+  Error: (9999) No calculated Farfield Result with correct excitation string found.(Line:1660)
+  Evaluating 'GainPhi0': 0 s
+  Evaluating 'GainPhi90': 1 s
+  Error: (9999) Could not find result '2D/3D Results\E-Field\e-field (f=24;z=4.9605942990365) [1]'. Please check your settings.(Line:1846)
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 0 s
+  Evaluating 'Directivity, constant Phi=0': 1 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2025-06-26 14:45:29
+----------------------------------------------------------------------------------------

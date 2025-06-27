@@ -1,0 +1,22 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2025-06-23 14:48:44
+
+  Evaluating 'GainPhi0': 1 s
+  Evaluating 'GainPhi90': 0 s
+  Error: (9999) Could not find result '2D/3D Results\E-Field\e-field (f=24;z=4.9605942990365) [1]'. Please check your settings.(Line:1846)
+  Evaluating 'e-field (f=24,z=4.9605942990365) (1)_Abs (X)': 0 s
+
+  Total time: 4 s  ( = 0 h, 0 m, 4 s )
+
+Template based post-processing finished at: 2025-06-23 14:48:48
+----------------------------------------------------------------------------------------

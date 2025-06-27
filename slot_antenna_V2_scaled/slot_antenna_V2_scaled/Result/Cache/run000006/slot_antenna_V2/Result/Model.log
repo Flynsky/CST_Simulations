@@ -1,0 +1,205 @@
+2025-06-23 14:46:18   Build version: 2024.0 Release from 2023-09-01 (change 1164796)
+
+2025-06-23 14:46:18   Starting adaptive port meshing.
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:18   Mode calculation for port 2:
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:18   
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:18   
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   *** Warning ***
+
+2025-06-23 14:46:19   The Standard (legacy) port mode solver is not supported anymore. Please consider switching to the Generalized port mode 
+                      solver instead. More...
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19     -------------------------------- F-Calc 24 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        2      1      TM          294           5.06e-006     ---           15.03
+                        ----------------------------------------------------------------------------
+
+2025-06-23 14:46:19   Pass 1 successfully completed. 
+2025-06-23 14:46:19   Adaptive port meshing finished. 
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   *** Warning ***
+
+                      This software is licensed for non-commercial use only.
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   
+                      Solver started at: 2025-06-23 14:46:19 +0200
+
+                        Module:  Time Domain: S-Parameter (Linux 64)
+                        Version: 2024.0 Release from 2023-09-01 (change 1164796)
+
+2025-06-23 14:46:19   
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at port 2 (mode 1) 
+
+
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:19   The dispersive material update will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:34   Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: legacy
+
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 6
+                            Number of calculation domains used: 8
+
+                         Used point accuracy enhancement value: 62.00%.
+                         Acceleration mode: CPU
+                         PBA fill limit: 93.77% (inverse)
+
+                         *** Warning ***  The matrix computation uses legacy PBA settings. These settings will become obsolete in future versions.
+
+                         *** Warning ***  To use the default PBA settings please consider pressing the "Default" button in the "Discretizer" tab of the "Special Mesh Properties" dialog box. 
+
+
+2025-06-23 14:46:36   *** Warning ***
+
+2025-06-23 14:46:36   The Standard (legacy) port mode solver is not supported anymore. Please consider switching to the Generalized port mode 
+                      solver instead. More...
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:36   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 3.44641 mm
+                        Xmax: expanded open, 4 Layer, depth 3.44641 mm
+
+                        Ymin: expanded open, 4 Layer, depth 3.87895 mm
+                        Ymax: expanded open, 4 Layer, depth 3.46401 mm
+
+                        Zmin: expanded open, 4 Layer, depth 3.41117 mm
+                        Zmax: expanded open, 4 Layer, depth 3.41117 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:36   Frequency settings: 
+
+                        Fmin:         21.6
+                        Fmax:         26.4
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:36   Field update statistics:
+
+                        Number of components in total: 	2190991
+                        Number of TST and special elements:	342
+                        Number of lossy metal components:	122607
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:46:36   Waveguide boundaries:
+
+2025-06-23 14:46:36   Port: 2
+
+2025-06-23 14:46:37     -------------------------------- F-Calc 24 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        2      1      TM          294           5.69e-006     ---           15.03
+                        ----------------------------------------------------------------------------
+
+2025-06-23 14:48:39   
+                      --------------------------------------------------------------------------------
+2025-06-23 14:48:39   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:39   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:39   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     33744                         10179576     10179576     
+                        Matrices calc.      571447                        20997070     9665039      
+                        Solver run total    388328                        10191769     9674913      
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	FYNN-LinuxLaptop 
+
+                           Number of CPU threads:               8
+                           Hardware info:                  	Hardware Accelerator Device not activated
+
+                        Number of mesh cells:             	348650
+                        Excitation duration:              	1.48106198e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	1.00492 
+                        Steady state accuracy limit:      	-30	dB 
+                        Simulated number of time steps:   	8024 
+                        Maximum number of time steps:     	159694 
+                        Time step width:
+                           without subcycles:             	1.854863894e-004 ns
+                           used:                          	1.854863894e-004 ns
+
+                        CAD preparation time:             	1      	s
+                        Matrix calculation time:          	14 	s
+                        Solver setup time:                	2 	s
+                        Solver loop time:                 	121 	s
+                        Solver post-processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	138 	s  ( = 0 h, 2 m, 18 s )
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:39   
+                        Adaptive port meshing time:          	3      	s
+                        Total solver time (all cycles):      	138    	s  ( = 0 h, 2 m, 18 s )
+                        Solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	143    	s  ( = 0 h, 2 m, 23 s )
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:39   Solver finished at: 2025-06-23 14:48:39 +0200
+
+
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:46   *** Error ***
+
+                      Template based post-processing result "e-field (f=24,z=4.9605942990365) (1)_Abs
+                      (X)":
+                      Error in calling "Evaluate1D" function ((9999) Could not find result '2D/3D
+                      Results\E-Field\e-field (f=24;z=4.9605942990365) [1]'. Please check your
+                      settings.(Line:1846))
+
+                      ------------------------------------------------------------------------------
+2025-06-23 14:48:48   Creating parametric 1D results for Run ID 1
+
+                      ------------------------------------------------------------------------------
