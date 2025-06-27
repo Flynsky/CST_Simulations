@@ -1,0 +1,10 @@
+Layer Detection Run At: Fri Jun 27 22:32:35 2025
+Layer Detection Version: 20180416
+
+Result from Auto-Detection.
+
+Multilayer Stack with 1 Layers in z-direction (top to bottom) :
+
+        44 + ----- Simulation Box Boundary -----------------
+           | Thickness: 52.7, Material: Vacuum
+      -9.1 + ----- Simulation Box Boundary -----------------

@@ -1,0 +1,60 @@
+11
+0
+0
+5
+GainPhi0
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+ED10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+GainPhi0
+GainPhi90
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+ED10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+GainPhi90
+e-field (f=24,z=4.9605942990365) (1)_Abs (X)
+Evaluate Field in arbitrary Coordinates
+1
+1D
+2D and 3D Field Results
+P
+ED10
+Evaluate Field in arbitrary Coordinates.rtp
+VBA
+1
+e-field (f=24,z=4.9605942990365) (1)_Abs (X)
+Directivity, constant Phi=0
+Farfield Result
+1
+1D
+Farfield and Antenna Properties
+P
+EP10
+Farfield Result^+MWS+DS.rtp
+VBA
+1
+Directivity, constant Phi=0
+e-field (f=24) (1)_Abs_2D
+Evaluate Field in arbitrary Coordinates
+1
+0D
+2D and 3D Field Results
+P
+ED10
+Evaluate Field in arbitrary Coordinates.rtp
+VBA
+1
+e-field (f=24) (1)_Abs_2D
+0
