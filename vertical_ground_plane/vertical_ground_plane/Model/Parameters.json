@@ -1,0 +1,73 @@
+{
+    "parameters": [
+        {
+            "expr": "c0/frequency_centre",
+            "name": "wavelength_centre",
+            "value": "74.9481145"
+        },
+        {
+            "descr": "Radial element length",
+            "expr": "17.6637702545685",
+            "name": "radial_element_length",
+            "value": "17.6637702545685"
+        },
+        {
+            "descr": "Radial element diameter",
+            "expr": "0.15",
+            "name": "radial_element_diameter",
+            "value": "0.15"
+        },
+        {
+            "descr": "Number of radial elements",
+            "expr": "4",
+            "name": "number_of_radials",
+            "value": "4"
+        },
+        {
+            "expr": "frequency_centre*0.6",
+            "name": "frequency_minimum",
+            "value": "240"
+        },
+        {
+            "expr": "frequency_centre*1.4",
+            "name": "frequency_maximum",
+            "value": "560"
+        },
+        {
+            "descr": "Centre frequency",
+            "expr": "400",
+            "name": "frequency_centre",
+            "value": "400"
+        },
+        {
+            "expr": "driven_element_length/100",
+            "name": "feed_gap",
+            "value": "0.176637702545685"
+        },
+        {
+            "descr": "Driven element length",
+            "expr": "17.6637702545685",
+            "name": "driven_element_length",
+            "value": "17.6637702545685"
+        },
+        {
+            "descr": "Driven element diameter",
+            "expr": "0.15",
+            "name": "driven_element_diameter",
+            "value": "0.15"
+        },
+        {
+            "descr": "Angle of radials below horizontal",
+            "expr": "41.5776439894866",
+            "name": "depression_angle",
+            "value": "41.5776439894866"
+        },
+        {
+            "descr": "Speed of light (corrected for the model units)",
+            "expr": "CLight*0.0001",
+            "name": "c0",
+            "value": "29979.2458"
+        }
+    ],
+    "version": 1
+}

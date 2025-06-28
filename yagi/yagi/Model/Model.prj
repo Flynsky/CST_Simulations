@@ -1,0 +1,13 @@
+{
+   "Author": "Antenna Magus",
+   "Comment": "Project name: Yagi-Uda dipole array antenna (I-Solver)\n\n\n\nDate created: 22/04/2009\n\nDate updated: March 2012\n\n\n\n\n\nModel: \n\nAll the elements are constructed out of thin  wires. The model is fed using a discrete port. A macro creates the director elements as defined by the variables. The additional parameters in the variables list for a greater number of elements than defined by the \"num_elements\" variable are not used.\n\n\n\nThe variables \"position_director_1\", \"position_director_2\", \"position_director_3\",... are the positions of the director elements with respect to the driven element position. These positions are derived parameters for information only and are not used to construct the model.\n\n\n\n\n\nPost processing:\n\nTemplate-based processing is used to plot the input impedance",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF IntegralEq",
+   "Last Solver Type Abb": "i",
+   "Mesh Cells": "",
+   "Mesh Type": "Surface",
+   "Modeler Unique ID": "5:yagi.cst?5964531791f404629e984804d88fbe88?35794:numberofparameters=28:port=1>mode=1>zre=0>zim=0:::feed_gap?frequency_centre?frequency_maximum?frequency_minimum?l_director_1?l_director_2?l_director_3?l_director_4?l_director_5?l_director_6?l_director_7?l_director_8?l_director_9?l_driver?l_reflector?num_elements?num_ff_monitors?spacing_director_1?spacing_director_2?spacing_director_3?spacing_director_4?spacing_director_5?spacing_director_6?spacing_director_7?spacing_director_8?spacing_director_9?spacing_reflector?wire_diameter",
+   "ProjectVersion": "'# MWS Version: Version 2024.5 - Jun 14 2024 - ACIS 33.0.1 -",
+   "Results": "Frequency Domain: Integral Equation Solver",
+   "Version": "3"
+}

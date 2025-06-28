@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928" creator="modeler">
+  <Objects>
+    <Object name="Wires\Radial_3" id="1">
+      <LineSet points="0 0 0 -1.21364109e-15 -6.6067543 -5.86114264 -1.21364109e-15 -6.6067543 -5.86114264 -2.42728218e-15 -13.2135086 -11.7222853" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Wires\Radial_2" id="2">
+      <LineSet points="0 0 0 -6.6067543 8.09094024e-16 -5.86114264 -6.6067543 8.09094024e-16 -5.86114264 -13.2135086 1.61818805e-15 -11.7222853" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Wires\Radial_1" id="3">
+      <LineSet points="0 0 0 4.04547012e-16 6.6067543 -5.86114264 4.04547012e-16 6.6067543 -5.86114264 8.09094024e-16 13.2135086 -11.7222853" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Wires\Radial" id="4">
+      <LineSet points="0 0 0 6.6067543 0 -5.86114264 6.6067543 0 -5.86114264 13.2135086 0 -11.7222853" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Wires\Driven_element" id="5">
+      <LineSet points="1.08159399e-17 0 0.176637709 5.46204961e-16 0 8.92020416 5.46204961e-16 0 8.92020416 1.08159395e-15 0 17.6637707" stripped="1" material="$WireMaterial$"/>
+    </Object>
+    <Object name="Ports\port1" id="6">
+      <Cone position="0 0 0.0883188546" direction="0 0 0.176637709" dimension="10 10 10" material="$PortMaterial$" text="1" short="1"/>
+      <LineSet points="0 0 0 0 0 0.176637709" stripped="1" material="$WireMaterial$"/>
+    </Object>
+  </Objects>
+  <Materials/>
+  <Groups/>
+</CSTAuxiliaryGeometry>

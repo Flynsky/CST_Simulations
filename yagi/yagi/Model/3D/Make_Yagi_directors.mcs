@@ -1,0 +1,43 @@
+' Make_Yagi_directors
+
+Sub Main ()
+	Dim L_directors(40) As Variant, S_directors(40) As Variant
+	Dim N_d As Integer, cnt1 As Integer, cnt2 As Integer
+	Dim position_director As Double
+	Dim L_d_string As String, S_d_string As String, part_name As String
+
+	Dim D_w As Double, xxx As Double
+
+	'Import variables
+	D_w = restoredoubleparameter("wire_diameter")
+	N_d = restoredoubleparameter("num_elements") - 2
+	For cnt1 = 1 To N_d STEP 1
+ 		L_d_string = "l_director_" + CStr(cnt1)
+ 		S_d_string = "spacing_director_" + CStr(cnt1)
+		L_directors(cnt1) = restoredoubleparameter(L_d_string)
+		S_directors(cnt1) = restoredoubleparameter(S_d_string)
+	Next
+
+	'Make cylindrical director elements
+	position_director = 0
+	For cnt2 = 1 To N_d STEP 1
+		position_director = position_director + S_directors(cnt2)
+		part_name = "Director_" + CStr(cnt2)
+		With Cylinder
+		     .Reset
+		     .Name part_name
+		     .Component "Antenna"
+		     .Material "PEC"
+		     .OuterRadius wire_diameter/2
+		     .InnerRadius "0"
+		     .Axis "x"
+		     .Xrange -L_directors(cnt2)/2, L_directors(cnt2)/2
+		     .Ycenter "0"
+		     .Zcenter position_director
+		     .Segments "0"
+		     .Create
+		End With
+
+	Next
+
+End Sub

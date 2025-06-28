@@ -1,0 +1,13 @@
+{
+   "Author": "Antenna MAGUS",
+   "Comment": "Project name: Vertical ground-plane antenna\n\nDate created: 20/03/2009\n\n\n\nModel:\n\nThe driven element and radials are constructed from a wires (created from curves) and the driven element is fed with respect to the radial elements using a discret port. The radial elements are copied and rotated.\n\n\n\n\n\nSettings:\n\nOne plane of magnetic symmetry is used to speed up simulation. If an even number of radials is used, another magnetic symmetry plane (y-z) can also be used.\n\n\n\nOverall mesh settings are set at 17 lines per wavelength.\n\n\n\nTemplate based postprocessing is used to extract the real and imaginary parts of the port impedance",
+   "Last Problem Type": "High Frequency",
+   "Last Solver Type": "HF Time Domain",
+   "Last Solver Type Abb": "t",
+   "Mesh Cells": "56,250",
+   "Mesh Type": "Hexahedral",
+   "Modeler Unique ID": "5:vertical_ground_plane.cst?49cffb9c69f12361fa9dc5e24c72b27a?19271:numberofparameters=10:port=1>mode=1>zre=0>zim=0:::depression_angle?driven_element_diameter?driven_element_length?feed_gap?frequency_centre?frequency_maximum?frequency_minimum?number_of_radials?radial_element_diameter?radial_element_length",
+   "ProjectVersion": "'# MWS Version: Version 2024.5 - Jun 14 2024 - ACIS 33.0.1 -",
+   "Results": "Time Domain: S-Parameter",
+   "Version": "3"
+}

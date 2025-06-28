@@ -1,0 +1,748 @@
+{
+    "Optimizer": {
+        "Goals": null,
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "299.792458",
+                    "Max Value": "329.772",
+                    "Min Value": "269.813",
+                    "Parameter Name": "c0"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3",
+                    "Max Value": "3.3",
+                    "Min Value": "2.7",
+                    "Parameter Name": "frequency_centre"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "42.67",
+                    "Max Value": "46.937",
+                    "Min Value": "38.403",
+                    "Parameter Name": "l_director_1"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.833",
+                    "Max Value": "42.716",
+                    "Min Value": "34.95",
+                    "Parameter Name": "l_director_10"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.593",
+                    "Max Value": "42.452",
+                    "Min Value": "34.734",
+                    "Parameter Name": "l_director_11"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.393",
+                    "Max Value": "42.232",
+                    "Min Value": "34.554",
+                    "Parameter Name": "l_director_12"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.194",
+                    "Max Value": "42.013",
+                    "Min Value": "34.375",
+                    "Parameter Name": "l_director_13"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.994",
+                    "Max Value": "41.793",
+                    "Min Value": "34.195",
+                    "Parameter Name": "l_director_14"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.784",
+                    "Max Value": "41.562",
+                    "Min Value": "34.006",
+                    "Parameter Name": "l_director_15"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.614",
+                    "Max Value": "41.375",
+                    "Min Value": "33.853",
+                    "Parameter Name": "l_director_16"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.444",
+                    "Max Value": "41.188",
+                    "Min Value": "33.7",
+                    "Parameter Name": "l_director_17"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.274",
+                    "Max Value": "41.001",
+                    "Min Value": "33.547",
+                    "Parameter Name": "l_director_18"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.104",
+                    "Max Value": "40.814",
+                    "Min Value": "33.394",
+                    "Parameter Name": "l_director_19"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "42.121",
+                    "Max Value": "46.333",
+                    "Min Value": "37.909",
+                    "Parameter Name": "l_director_2"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.934",
+                    "Max Value": "40.627",
+                    "Min Value": "33.241",
+                    "Parameter Name": "l_director_20"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.755",
+                    "Max Value": "40.431",
+                    "Min Value": "33.08",
+                    "Parameter Name": "l_director_21"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.585",
+                    "Max Value": "40.244",
+                    "Min Value": "32.927",
+                    "Parameter Name": "l_director_22"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.465",
+                    "Max Value": "40.112",
+                    "Min Value": "32.819",
+                    "Parameter Name": "l_director_23"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.345",
+                    "Max Value": "39.98",
+                    "Min Value": "32.711",
+                    "Parameter Name": "l_director_24"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.225",
+                    "Max Value": "39.848",
+                    "Min Value": "32.602",
+                    "Parameter Name": "l_director_25"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.115",
+                    "Max Value": "39.727",
+                    "Min Value": "32.504",
+                    "Parameter Name": "l_director_26"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.995",
+                    "Max Value": "39.595",
+                    "Min Value": "32.395",
+                    "Parameter Name": "l_director_27"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.875",
+                    "Max Value": "39.463",
+                    "Min Value": "32.288",
+                    "Parameter Name": "l_director_28"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.785",
+                    "Max Value": "39.364",
+                    "Min Value": "32.206",
+                    "Parameter Name": "l_director_29"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.581",
+                    "Max Value": "45.739",
+                    "Min Value": "37.423",
+                    "Parameter Name": "l_director_3"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.715",
+                    "Max Value": "39.287",
+                    "Min Value": "32.144",
+                    "Parameter Name": "l_director_30"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.645",
+                    "Max Value": "39.21",
+                    "Min Value": "32.081",
+                    "Parameter Name": "l_director_31"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.565",
+                    "Max Value": "39.121",
+                    "Min Value": "32.008",
+                    "Parameter Name": "l_director_32"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.495",
+                    "Max Value": "39.044",
+                    "Min Value": "31.945",
+                    "Parameter Name": "l_director_33"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.425",
+                    "Max Value": "38.968",
+                    "Min Value": "31.882",
+                    "Parameter Name": "l_director_34"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.356",
+                    "Max Value": "38.892",
+                    "Min Value": "31.82",
+                    "Parameter Name": "l_director_35"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.276",
+                    "Max Value": "38.804",
+                    "Min Value": "31.748",
+                    "Parameter Name": "l_director_36"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.206",
+                    "Max Value": "38.727",
+                    "Min Value": "31.685",
+                    "Parameter Name": "l_director_37"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.136",
+                    "Max Value": "38.65",
+                    "Min Value": "31.622",
+                    "Parameter Name": "l_director_38"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.032",
+                    "Max Value": "45.135",
+                    "Min Value": "36.929",
+                    "Parameter Name": "l_director_4"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.612",
+                    "Max Value": "44.673",
+                    "Min Value": "36.551",
+                    "Parameter Name": "l_director_5"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.202",
+                    "Max Value": "44.222",
+                    "Min Value": "36.182",
+                    "Parameter Name": "l_director_6"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.812",
+                    "Max Value": "43.793",
+                    "Min Value": "35.831",
+                    "Parameter Name": "l_director_7"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.483",
+                    "Max Value": "43.431",
+                    "Min Value": "35.535",
+                    "Parameter Name": "l_director_8"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.153",
+                    "Max Value": "43.068",
+                    "Min Value": "35.238",
+                    "Parameter Name": "l_director_9"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "46.96749",
+                    "Max Value": "51.664",
+                    "Min Value": "42.271",
+                    "Parameter Name": "l_driver"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "48.52641",
+                    "Max Value": "53.379",
+                    "Min Value": "43.674",
+                    "Parameter Name": "l_reflector"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "3",
+                    "Max Value": "3.3",
+                    "Min Value": "2.7",
+                    "Parameter Name": "num_elements"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "11",
+                    "Max Value": "12.1",
+                    "Min Value": "9.9",
+                    "Parameter Name": "num_ff_monitors"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "1",
+                    "Max Value": "1.1",
+                    "Min Value": "0.9",
+                    "Parameter Name": "position"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "17.748",
+                    "Max Value": "19.523",
+                    "Min Value": "15.973",
+                    "Parameter Name": "spacing_director_1"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "33.397",
+                    "Max Value": "36.737",
+                    "Min Value": "30.057",
+                    "Parameter Name": "spacing_director_10"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "34.666",
+                    "Max Value": "38.133",
+                    "Min Value": "31.199",
+                    "Parameter Name": "spacing_director_11"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "35.645",
+                    "Max Value": "39.21",
+                    "Min Value": "32.081",
+                    "Parameter Name": "spacing_director_12"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.205",
+                    "Max Value": "39.825",
+                    "Min Value": "32.584",
+                    "Parameter Name": "spacing_director_13"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "36.765",
+                    "Max Value": "40.442",
+                    "Min Value": "33.089",
+                    "Parameter Name": "spacing_director_14"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.314",
+                    "Max Value": "41.045",
+                    "Min Value": "33.583",
+                    "Parameter Name": "spacing_director_15"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "37.874",
+                    "Max Value": "41.661",
+                    "Min Value": "34.087",
+                    "Parameter Name": "spacing_director_16"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.433",
+                    "Max Value": "42.276",
+                    "Min Value": "34.59",
+                    "Parameter Name": "spacing_director_17"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "38.983",
+                    "Max Value": "42.881",
+                    "Min Value": "35.085",
+                    "Parameter Name": "spacing_director_18"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.293",
+                    "Max Value": "43.222",
+                    "Min Value": "35.364",
+                    "Parameter Name": "spacing_director_19"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "19.916",
+                    "Max Value": "21.908",
+                    "Min Value": "17.924",
+                    "Parameter Name": "spacing_director_2"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.593",
+                    "Max Value": "43.552",
+                    "Min Value": "35.634",
+                    "Parameter Name": "spacing_director_20"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "39.882",
+                    "Max Value": "43.87",
+                    "Min Value": "35.894",
+                    "Parameter Name": "spacing_director_21"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.182",
+                    "Max Value": "44.2",
+                    "Min Value": "36.164",
+                    "Parameter Name": "spacing_director_22"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.442",
+                    "Max Value": "44.486",
+                    "Min Value": "36.398",
+                    "Parameter Name": "spacing_director_23"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.542",
+                    "Max Value": "44.596",
+                    "Min Value": "36.488",
+                    "Parameter Name": "spacing_director_24"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.632",
+                    "Max Value": "44.695",
+                    "Min Value": "36.569",
+                    "Parameter Name": "spacing_director_25"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.732",
+                    "Max Value": "44.805",
+                    "Min Value": "36.659",
+                    "Parameter Name": "spacing_director_26"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.832",
+                    "Max Value": "44.915",
+                    "Min Value": "36.749",
+                    "Parameter Name": "spacing_director_27"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.932",
+                    "Max Value": "45.025",
+                    "Min Value": "36.839",
+                    "Parameter Name": "spacing_director_28"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.962",
+                    "Max Value": "45.058",
+                    "Min Value": "36.866",
+                    "Parameter Name": "spacing_director_29"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "22.095",
+                    "Max Value": "24.305",
+                    "Min Value": "19.886",
+                    "Parameter Name": "spacing_director_3"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "40.982",
+                    "Max Value": "45.08",
+                    "Min Value": "36.884",
+                    "Parameter Name": "spacing_director_30"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.012",
+                    "Max Value": "45.113",
+                    "Min Value": "36.911",
+                    "Parameter Name": "spacing_director_31"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.032",
+                    "Max Value": "45.135",
+                    "Min Value": "36.929",
+                    "Parameter Name": "spacing_director_32"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.062",
+                    "Max Value": "45.168",
+                    "Min Value": "36.956",
+                    "Parameter Name": "spacing_director_33"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.112",
+                    "Max Value": "45.223",
+                    "Min Value": "37.001",
+                    "Parameter Name": "spacing_director_34"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.162",
+                    "Max Value": "45.278",
+                    "Min Value": "37.046",
+                    "Parameter Name": "spacing_director_35"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.221",
+                    "Max Value": "45.343",
+                    "Min Value": "37.099",
+                    "Parameter Name": "spacing_director_36"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.271",
+                    "Max Value": "45.398",
+                    "Min Value": "37.144",
+                    "Parameter Name": "spacing_director_37"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.321",
+                    "Max Value": "45.453",
+                    "Min Value": "37.189",
+                    "Parameter Name": "spacing_director_38"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "24.143",
+                    "Max Value": "26.557",
+                    "Min Value": "21.729",
+                    "Parameter Name": "spacing_director_4"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "25.972",
+                    "Max Value": "28.569",
+                    "Min Value": "23.375",
+                    "Parameter Name": "spacing_director_5"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "27.791",
+                    "Max Value": "30.57",
+                    "Min Value": "25.012",
+                    "Parameter Name": "spacing_director_6"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "29.58",
+                    "Max Value": "32.538",
+                    "Min Value": "26.622",
+                    "Parameter Name": "spacing_director_7"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "30.849",
+                    "Max Value": "33.934",
+                    "Min Value": "27.764",
+                    "Parameter Name": "spacing_director_8"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "32.118",
+                    "Max Value": "35.33",
+                    "Min Value": "28.906",
+                    "Parameter Name": "spacing_director_9"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "14.98962",
+                    "Max Value": "16.489",
+                    "Min Value": "13.491",
+                    "Parameter Name": "spacing_reflector"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "2.99792",
+                    "Max Value": "3.2977",
+                    "Min Value": "2.6981",
+                    "Parameter Name": "wire_diameter"
+                }
+            ],
+            "Range Percentage": "10",
+            "Start From Current": "True"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Trust Region Framework",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "False"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}

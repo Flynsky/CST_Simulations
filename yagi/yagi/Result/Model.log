@@ -1,0 +1,490 @@
+2025-06-28 23:29:13   *** Warning ***
+
+                      This software is licensed for non-commercial use only.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open
+                        Xmax: expanded open
+
+                        Ymin: expanded open
+                        Ymax: expanded open
+
+                        Zmin: expanded open
+                        Zmax: expanded open
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Mesh time                :	0 s
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   
+                      ================================================================================
+                      Integral Equation Solver calculation cycle started
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Solver started at: 2025-06-28 23:29:13 +0200
+
+                        Module:  Frequency Domain: Integral Equation Solver (Win 64)
+                        Version: 2024.5 Release from 2024-06-14 (change 1285309)
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Using CFIE for PEC solids.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   *** Warning ***
+
+2025-06-28 23:29:13   Surface mesh contains no tri patches. Mesh analysis is not available.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Using curvature order: 1.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Calculation 1 (Frequency: 1.2 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   Using 6 threads for setup
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Calculation 2 (Frequency: 0.8 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Calculation 3 (Frequency: 1 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:13     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14     Calculation 4 (Frequency: 0.84 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14     Calculation 5 (Frequency: 0.88 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:14     Calculation 6 (Frequency: 0.92 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Calculation 7 (Frequency: 0.96 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Calculation 8 (Frequency: 1.04 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Calculation 9 (Frequency: 1.08 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Calculation 10 (Frequency: 1.12 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:15     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 11 (Frequency: 1.16 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 12 (Frequency: 1.0144 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 13 (Frequency: 1.0024 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 14 (Frequency: 1.0236 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 15 (Frequency: 1.0284 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16     Calculation 16 (Frequency: 1.032 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:16   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Calculation 17 (Frequency: 1.0432 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Calculation 18 (Frequency: 0.944 GHz)
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17   The direct solver will be used.
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Matrix setup time        :	0 s
+
+                        Degrees of freedom       :	35
+                        Floating-point format    :	double
+                        Number of wire edges     :	14
+                        Solver order             :	2nd
+
+                        Stimulation port         :	1
+                        Accuracy                 :	0
+
+                        Number of CPU sockets    :	1
+                        Number of threads        :	6
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17   Finished the general purpose interpolative broadband frequency sweep:
+                      All broadband sweep convergence criteria have been satisfied after
+                      calculating 18 frequency samples:
+
+                        Broadband sweep error threshold value :  0.01 (All S-Parameters) 
+                        Number of error criterion checks      :  2 (All S-Parameters) 
+                        Minimum number of samples             :  3
+                        Number of data samples, linear        :  1001
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     Total Solver Time        :	3 s
+                      ================================================================================
+
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17   Solver finished successfully
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:17     ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        23360                         19663060     19662612     
+                        Matrices calc.      132416                        19633284     19213884     
+                        Eq. system solve    132416                        19619212     19211688     
+                        Eq. system setup    132416                        19644336     19221068     
+                        Solver run total    132416                        19663060     19221068     
+
+                        Computer name       Fynn
+                        ----------------------------------------------------------------------------
+
+
+                      ------------------------------------------------------------------------------
+2025-06-28 23:29:55   Creating parametric 1D results for Run ID 1
+
+                      ------------------------------------------------------------------------------

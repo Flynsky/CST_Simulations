@@ -1,0 +1,723 @@
+{
+    "parameters": [
+        {
+            "descr": "Wire diameter",
+            "expr": "3",
+            "name": "wire_diameter",
+            "value": "3"
+        },
+        {
+            "descr": "Spacing between driven element and reflector",
+            "expr": "44.9688687",
+            "name": "spacing_reflector",
+            "value": "44.9688687"
+        },
+        {
+            "descr": "Spacing between director 9 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_9",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 8 and previous element",
+            "expr": "92.5459317846",
+            "name": "spacing_director_8",
+            "value": "92.5459317846"
+        },
+        {
+            "descr": "Spacing between director 7 and previous element",
+            "expr": "88.738567568",
+            "name": "spacing_director_7",
+            "value": "88.738567568"
+        },
+        {
+            "descr": "Spacing between director 6 and previous element",
+            "expr": "83.3722825698",
+            "name": "spacing_director_6",
+            "value": "83.3722825698"
+        },
+        {
+            "descr": "Spacing between director 5 and previous element",
+            "expr": "77.9160598342",
+            "name": "spacing_director_5",
+            "value": "77.9160598342"
+        },
+        {
+            "descr": "Spacing between director 4 and previous element",
+            "expr": "72.4298578528",
+            "name": "spacing_director_4",
+            "value": "72.4298578528"
+        },
+        {
+            "descr": "Spacing between director 38 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_38",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 37 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_37",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 36 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_36",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 35 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_35",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 34 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_34",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 33 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_33",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 32 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_32",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 31 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_31",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 30 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_30",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 3 and previous element",
+            "expr": "66.2841124638",
+            "name": "spacing_director_3",
+            "value": "66.2841124638"
+        },
+        {
+            "descr": "Spacing between director 29 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_29",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 28 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_28",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 27 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_27",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 26 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_26",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 25 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_25",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 24 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_24",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 23 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_23",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 22 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_22",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 21 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_21",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 20 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_20",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 2 and previous element",
+            "expr": "59.7486368794",
+            "name": "spacing_director_2",
+            "value": "59.7486368794"
+        },
+        {
+            "descr": "Spacing between director 19 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_19",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 18 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_18",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 17 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_17",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 16 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_16",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 15 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_15",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 14 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_14",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 13 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_13",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 12 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_12",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 11 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_11",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 10 and previous element",
+            "expr": "96.3532960012",
+            "name": "spacing_director_10",
+            "value": "96.3532960012"
+        },
+        {
+            "descr": "Spacing between director 1 and previous element",
+            "expr": "53.2431405408",
+            "name": "spacing_director_1",
+            "value": "53.2431405408"
+        },
+        {
+            "expr": "-spacing_reflector",
+            "name": "position_reflector",
+            "value": "-44.9688687"
+        },
+        {
+            "expr": "position_director_8+spacing_director_9",
+            "name": "position_director_9",
+            "value": "690.6318854946"
+        },
+        {
+            "expr": "position_director_7+spacing_director_8",
+            "name": "position_director_8",
+            "value": "594.2785894934"
+        },
+        {
+            "expr": "position_director_6+spacing_director_7",
+            "name": "position_director_7",
+            "value": "501.7326577088"
+        },
+        {
+            "expr": "position_director_5+spacing_director_6",
+            "name": "position_director_6",
+            "value": "412.9940901408"
+        },
+        {
+            "expr": "position_director_4+spacing_director_5",
+            "name": "position_director_5",
+            "value": "329.621807571"
+        },
+        {
+            "expr": "position_director_3+spacing_director_4",
+            "name": "position_director_4",
+            "value": "251.7057477368"
+        },
+        {
+            "expr": "position_director_37+spacing_director_38",
+            "name": "position_director_38",
+            "value": "3484.8774695294"
+        },
+        {
+            "expr": "position_director_36+spacing_director_37",
+            "name": "position_director_37",
+            "value": "3388.5241735282"
+        },
+        {
+            "expr": "position_director_35+spacing_director_36",
+            "name": "position_director_36",
+            "value": "3292.170877527"
+        },
+        {
+            "expr": "position_director_34+spacing_director_35",
+            "name": "position_director_35",
+            "value": "3195.8175815258"
+        },
+        {
+            "expr": "position_director_33+spacing_director_34",
+            "name": "position_director_34",
+            "value": "3099.4642855246"
+        },
+        {
+            "expr": "position_director_32+spacing_director_33",
+            "name": "position_director_33",
+            "value": "3003.1109895234"
+        },
+        {
+            "expr": "position_director_31+spacing_director_32",
+            "name": "position_director_32",
+            "value": "2906.7576935222"
+        },
+        {
+            "expr": "position_director_30+spacing_director_31",
+            "name": "position_director_31",
+            "value": "2810.404397521"
+        },
+        {
+            "expr": "position_director_29+spacing_director_30",
+            "name": "position_director_30",
+            "value": "2714.0511015198"
+        },
+        {
+            "expr": "position_director_2+spacing_director_3",
+            "name": "position_director_3",
+            "value": "179.275889884"
+        },
+        {
+            "expr": "position_director_28+spacing_director_29",
+            "name": "position_director_29",
+            "value": "2617.6978055186"
+        },
+        {
+            "expr": "position_director_27+spacing_director_28",
+            "name": "position_director_28",
+            "value": "2521.3445095174"
+        },
+        {
+            "expr": "position_director_26+spacing_director_27",
+            "name": "position_director_27",
+            "value": "2424.9912135162"
+        },
+        {
+            "expr": "position_director_25+spacing_director_26",
+            "name": "position_director_26",
+            "value": "2328.637917515"
+        },
+        {
+            "expr": "position_director_24+spacing_director_25",
+            "name": "position_director_25",
+            "value": "2232.2846215138"
+        },
+        {
+            "expr": "position_director_23+spacing_director_24",
+            "name": "position_director_24",
+            "value": "2135.9313255126"
+        },
+        {
+            "expr": "position_director_22+spacing_director_23",
+            "name": "position_director_23",
+            "value": "2039.5780295114"
+        },
+        {
+            "expr": "position_director_21+spacing_director_22",
+            "name": "position_director_22",
+            "value": "1943.2247335102"
+        },
+        {
+            "expr": "position_director_20+spacing_director_21",
+            "name": "position_director_21",
+            "value": "1846.871437509"
+        },
+        {
+            "expr": "position_director_19+spacing_director_20",
+            "name": "position_director_20",
+            "value": "1750.5181415078"
+        },
+        {
+            "expr": "position_director_1+spacing_director_2",
+            "name": "position_director_2",
+            "value": "112.9917774202"
+        },
+        {
+            "expr": "position_director_18+spacing_director_19",
+            "name": "position_director_19",
+            "value": "1654.1648455066"
+        },
+        {
+            "expr": "position_director_17+spacing_director_18",
+            "name": "position_director_18",
+            "value": "1557.8115495054"
+        },
+        {
+            "expr": "position_director_16+spacing_director_17",
+            "name": "position_director_17",
+            "value": "1461.4582535042"
+        },
+        {
+            "expr": "position_director_15+spacing_director_16",
+            "name": "position_director_16",
+            "value": "1365.104957503"
+        },
+        {
+            "expr": "position_director_14+spacing_director_15",
+            "name": "position_director_15",
+            "value": "1268.7516615018"
+        },
+        {
+            "expr": "position_director_13+spacing_director_14",
+            "name": "position_director_14",
+            "value": "1172.3983655006"
+        },
+        {
+            "expr": "position_director_12+spacing_director_13",
+            "name": "position_director_13",
+            "value": "1076.0450694994"
+        },
+        {
+            "expr": "position_director_11+spacing_director_12",
+            "name": "position_director_12",
+            "value": "979.6917734982"
+        },
+        {
+            "expr": "position_director_10+spacing_director_11",
+            "name": "position_director_11",
+            "value": "883.338477497"
+        },
+        {
+            "expr": "position_director_9+spacing_director_10",
+            "name": "position_director_10",
+            "value": "786.9851814958"
+        },
+        {
+            "expr": "spacing_director_1",
+            "name": "position_director_1",
+            "value": "53.2431405408"
+        },
+        {
+            "expr": "1",
+            "name": "position",
+            "value": "1"
+        },
+        {
+            "expr": "11",
+            "name": "num_ff_monitors",
+            "value": "11"
+        },
+        {
+            "descr": "Number of elements",
+            "expr": "11",
+            "name": "num_elements",
+            "value": "11"
+        },
+        {
+            "descr": "Reflector element length",
+            "expr": "146.8977233024",
+            "name": "l_reflector",
+            "value": "146.8977233024"
+        },
+        {
+            "descr": "Driven element length",
+            "expr": "140.90245526",
+            "name": "l_driver",
+            "value": "140.90245526"
+        },
+        {
+            "descr": "Director 9 length",
+            "expr": "124.6507984484",
+            "name": "l_director_9",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 8 length",
+            "expr": "125.6401135598",
+            "name": "l_director_8",
+            "value": "125.6401135598"
+        },
+        {
+            "descr": "Director 7 length",
+            "expr": "126.6294286712",
+            "name": "l_director_7",
+            "value": "126.6294286712"
+        },
+        {
+            "descr": "Director 6 length",
+            "expr": "127.7986192574",
+            "name": "l_director_6",
+            "value": "127.7986192574"
+        },
+        {
+            "descr": "Director 5 length",
+            "expr": "129.0277683352",
+            "name": "l_director_5",
+            "value": "129.0277683352"
+        },
+        {
+            "descr": "Director 4 length",
+            "expr": "130.2868966588",
+            "name": "l_director_4",
+            "value": "130.2868966588"
+        },
+        {
+            "descr": "Director 38 length",
+            "expr": "124.6507984484",
+            "name": "l_director_38",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 37 length",
+            "expr": "124.6507984484",
+            "name": "l_director_37",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 36 length",
+            "expr": "124.6507984484",
+            "name": "l_director_36",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 35 length",
+            "expr": "124.6507984484",
+            "name": "l_director_35",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 34 length",
+            "expr": "124.6507984484",
+            "name": "l_director_34",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 33 length",
+            "expr": "124.6507984484",
+            "name": "l_director_33",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 32 length",
+            "expr": "124.6507984484",
+            "name": "l_director_32",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 31 length",
+            "expr": "124.6507984484",
+            "name": "l_director_31",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 30 length",
+            "expr": "124.6507984484",
+            "name": "l_director_30",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 3 length",
+            "expr": "131.9357551778",
+            "name": "l_director_3",
+            "value": "131.9357551778"
+        },
+        {
+            "descr": "Director 29 length",
+            "expr": "124.6507984484",
+            "name": "l_director_29",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 28 length",
+            "expr": "124.6507984484",
+            "name": "l_director_28",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 27 length",
+            "expr": "124.6507984484",
+            "name": "l_director_27",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 26 length",
+            "expr": "124.6507984484",
+            "name": "l_director_26",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 25 length",
+            "expr": "124.6507984484",
+            "name": "l_director_25",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 24 length",
+            "expr": "124.6507984484",
+            "name": "l_director_24",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 23 length",
+            "expr": "124.6507984484",
+            "name": "l_director_23",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 22 length",
+            "expr": "124.6507984484",
+            "name": "l_director_22",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 21 length",
+            "expr": "124.6507984484",
+            "name": "l_director_21",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 20 length",
+            "expr": "124.6507984484",
+            "name": "l_director_20",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 2 length",
+            "expr": "133.554634451",
+            "name": "l_director_2",
+            "value": "133.554634451"
+        },
+        {
+            "descr": "Director 19 length",
+            "expr": "124.6507984484",
+            "name": "l_director_19",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 18 length",
+            "expr": "124.6507984484",
+            "name": "l_director_18",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 17 length",
+            "expr": "124.6507984484",
+            "name": "l_director_17",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 16 length",
+            "expr": "124.6507984484",
+            "name": "l_director_16",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 15 length",
+            "expr": "124.6507984484",
+            "name": "l_director_15",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 14 length",
+            "expr": "124.6507984484",
+            "name": "l_director_14",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 13 length",
+            "expr": "124.6507984484",
+            "name": "l_director_13",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 12 length",
+            "expr": "124.6507984484",
+            "name": "l_director_12",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 11 length",
+            "expr": "124.6507984484",
+            "name": "l_director_11",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 10 length",
+            "expr": "124.6507984484",
+            "name": "l_director_10",
+            "value": "124.6507984484"
+        },
+        {
+            "descr": "Director 1 length",
+            "expr": "135.20349297",
+            "name": "l_director_1",
+            "value": "135.20349297"
+        },
+        {
+            "expr": "frequency_centre*0.8",
+            "name": "frequency_minimum",
+            "value": "0.8"
+        },
+        {
+            "expr": "frequency_centre*1.2",
+            "name": "frequency_maximum",
+            "value": "1.2"
+        },
+        {
+            "descr": "Centre frequency",
+            "expr": "1",
+            "name": "frequency_centre",
+            "value": "1"
+        },
+        {
+            "expr": "l_driver/150",
+            "name": "feed_gap",
+            "value": "0.939349701733333"
+        },
+        {
+            "descr": "Speed of light (corrected for the model units)",
+            "expr": "CLight*1E-06",
+            "name": "c0",
+            "value": "299.792458"
+        }
+    ],
+    "version": 1
+}

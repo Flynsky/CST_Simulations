@@ -1,0 +1,49 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "radial_element_length",
+         "type": "float",
+         "value": 17.6637702545685
+      },
+      {
+         "name": "radial_element_diameter",
+         "type": "float",
+         "value": 0.15
+      },
+      {
+         "name": "number_of_radials",
+         "type": "float",
+         "value": 4.0
+      },
+      {
+         "name": "frequency_centre",
+         "type": "float",
+         "value": 400.0
+      },
+      {
+         "name": "driven_element_length",
+         "type": "float",
+         "value": 17.6637702545685
+      },
+      {
+         "name": "driven_element_diameter",
+         "type": "float",
+         "value": 0.15
+      },
+      {
+         "name": "depression_angle",
+         "type": "float",
+         "value": 41.5776439894866
+      },
+      {
+         "name": "c0",
+         "type": "string",
+         "value": "CLight*0.0001"
+      }
+   ],
+   "outputVariables": []
+}

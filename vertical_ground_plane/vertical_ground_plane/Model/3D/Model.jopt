@@ -1,0 +1,132 @@
+{
+    "Optimizer": {
+        "Goals": null,
+        "Parameters": {
+            "Parameter List": [
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "CLight*0.0001",
+                    "Max Value": "329771.704",
+                    "Min Value": "269813.212",
+                    "Parameter Name": "c0"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "41.5776439894866",
+                    "Max Value": "45.906",
+                    "Min Value": "37.559",
+                    "Parameter Name": "depression_angle"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.15",
+                    "Max Value": "0.033",
+                    "Min Value": "0.027",
+                    "Parameter Name": "driven_element_diameter"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "17.6637702545685",
+                    "Max Value": "76.623",
+                    "Min Value": "62.691",
+                    "Parameter Name": "driven_element_length"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "400",
+                    "Max Value": "1100",
+                    "Min Value": "900",
+                    "Parameter Name": "frequency_centre"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "4",
+                    "Max Value": "4.4",
+                    "Min Value": "3.6",
+                    "Parameter Name": "number_of_radials"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "0.15",
+                    "Max Value": "0.033",
+                    "Min Value": "0.027",
+                    "Parameter Name": "radial_element_diameter"
+                },
+                {
+                    "Active": "False",
+                    "Anchors": "5",
+                    "Initial Value": "17.6637702545685",
+                    "Max Value": "76.623",
+                    "Min Value": "62.691",
+                    "Parameter Name": "radial_element_length"
+                }
+            ],
+            "Range Percentage": "10",
+            "Start From Current": "True"
+        },
+        "Settings": {
+            "CMAES Settings": {
+                "Maximal Iterations": 3000,
+                "Seed": 1,
+                "Sigma": "0.2",
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "True"
+            },
+            "Classic Powell Settings": {
+                "Accuracy": "0.01"
+            },
+            "General Settings": {
+                "Algorithm Type": "Trust Region Framework",
+                "Data Storage Type": "None",
+                "Goal Summary Type": "Sum of all goals",
+                "Move Mesh": "False",
+                "Start Active Solver": "True",
+                "Use Data Of Prev Calculations": "False"
+            },
+            "Genetic Algorithm Settings": {
+                "Generation Size": 32,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 30,
+                "Mutation Rate": 60,
+                "Seed": 1
+            },
+            "Nelder Mead Simplex Settings": {
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Noisy Latin Hypercube Distribution",
+                "Maximal Iterations": 250,
+                "Min Simplex Size": "1e-6",
+                "Seed": 1,
+                "Use External Anchor": "True",
+                "Use Maximal Iterations": "False"
+            },
+            "Particle Swarm Settings": {
+                "Generation Size": 30,
+                "Goal Function Level": "0.0",
+                "Initial Distribution": "Latin Hypercube Distribution",
+                "Interpolation": "No Interpolation",
+                "Maximal Iterations": 15,
+                "Seed": 1
+            },
+            "Quasi Newton Settings": {
+                "Refinements": "1"
+            },
+            "Trust Region Settings": {
+                "Domain Accuracy": "0.01",
+                "Finite Differences Delta": "Automatic",
+                "Maximal Iterations": 500,
+                "Sigma": "0.2",
+                "Use Maximal Iterations": "False"
+            }
+        },
+        "Version": 1
+    }
+}

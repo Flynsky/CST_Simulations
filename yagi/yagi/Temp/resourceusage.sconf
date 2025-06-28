@@ -1,0 +1,15 @@
+FeatureKeywords:string:SMatrix:DSNVersion:11, modeler:model:anchorpoints, monitor:farfield:single freq, modeler:load:fullloading, meshloading:problem_class_only, modeler:variables:rebuild, modeler:variables:fullrebuild, meshline:hex:check_after_loading:default, meshline:hex:handling_legacy:no, modeler:model:wcsitems, modeler:model:anchorpoints:saving, modeler:hidfile:no_shape, modeler:hidfile:history_expert, modeler:hidfile:unique_ids, SMatrix:DSNBWC:16, block:type:saved:MWSSCHEM, mesh::background::boolean, mesh:workflow:cadsurf, mesh:workflow:nru, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh:workflow:cad2srf, acceleration:cpu:6, acceleration:cpudevices:1, solver:hf:ie:i, mesh:surface:i, units:Length:mm, units:Frequency:GHz, boundary:open, boundary:open (add space), source:discrete edge port, lineqssolver:direct, lineqssolver:setting:auto, acceleration:gpu:0, solver:hf:fd:samples:18, solver:hf:fd:sampling:linear, monitor:resultfilemap:save, solver:pp:sparameter:sensitivityanalysis, solver:pp:sparameter:basicbranch, solver:pp:sparameter:unnorm, solver:pp:sparameter:updatebalance, solver:pp:farfield:1d, monitor:resultfilemap:load, solver:pp:farfield:0dlist, TABLE:UNIT_CHECK:WRITE, solver:pp:farfield:2d, DELETERESULTS:0000, monitor:scaling:peak, visualization:field_plot:default_engine
+LastWorkflowState:string:tetmesh:success
+solver_hf_int_fd/InitialFreePhysicalInMB:int:19848
+solver_hf_int_fd/MaxResidentSizeInMB:int:37
+solver_hf_int_fd/MaxResidentSizeMiB:int:107
+solver_hf_int_fd/MinFreePhysicalInMB:int:19800
+solver_pp/InitialFreePhysicalInMB:int:19887
+solver_pp/MaxResidentSizeInMB:int:26
+solver_pp/MaxResidentSizeMiB:int:26
+solver_pp/MinFreePhysicalInMB:int:19800
+tetmesh/InitialFreePhysicalInMB:int:17471
+tetmesh/MaxResidentSizeInMB:int:33
+tetmesh/MaxResidentSizeMiB:int:11
+tetmesh/MinFreePhysicalInMB:int:17454
+---

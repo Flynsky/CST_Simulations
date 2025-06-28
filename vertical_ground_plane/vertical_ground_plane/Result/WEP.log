@@ -1,0 +1,81 @@
+{24380} >2025-05-28 23:33:17.00711< matrixcalc_AMD64 @ Fynn: 1xN000:  Discrete port: 1
+{24380} >2025-05-28 23:33:17.00720< matrixcalc_AMD64 @ Fynn: 1xN000:  # edges: 0
+{24380} >2025-05-28 23:33:17.00726< matrixcalc_AMD64 @ Fynn: 1xN000:  Wire: Radial_2
+{24380} >2025-05-28 23:33:17.00732< matrixcalc_AMD64 @ Fynn: 1xN000:  # edges: 25
+{24380} >2025-05-28 23:33:17.00737< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 0, point: 7447
+{24380} >2025-05-28 23:33:17.00742< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{24380} >2025-05-28 23:33:17.00747< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 0, pos (-13.21 | 0.00 | -11.72)
+{24380} >2025-05-28 23:33:17.00752< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 0 is at boundary: 2
+{24380} >2025-05-28 23:33:17.00772< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 1, point: 15572
+{24380} >2025-05-28 23:33:17.00779< matrixcalc_AMD64 @ Fynn: 1xN000:  ending 1, wire ends: (0.00 | 0.00 | 0.00)
+{24380} >2025-05-28 23:33:17.00784< matrixcalc_AMD64 @ Fynn: 1xN000:  # endings: 1, # corrected: 0, not corrected: 0
+{24380} >2025-05-28 23:33:17.00789< matrixcalc_AMD64 @ Fynn: 1xN000:  connection state of ending 0: 1
+{24380} >2025-05-28 23:33:17.00796< matrixcalc_AMD64 @ Fynn: 1xN000:  connection state of ending 1: -1
+
+
+{23996} >2025-05-28 23:33:17.00794< matrixcalc_AMD64 @ Fynn: 1xN001:  Discrete port: 1
+{23996} >2025-05-28 23:33:17.00801< matrixcalc_AMD64 @ Fynn: 1xN001:  # edges: 1
+{23996} >2025-05-28 23:33:17.00807< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, point: 17345
+{23996} >2025-05-28 23:33:17.00811< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00816< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, pos (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00822< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0 is at boundary: 2
+{23996} >2025-05-28 23:33:17.00828< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, point: 18099
+{23996} >2025-05-28 23:33:17.00834< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, wire ends: (0.00 | 0.00 | 0.18)
+{23996} >2025-05-28 23:33:17.00850< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, pos (0.00 | 0.00 | 0.18)
+{23996} >2025-05-28 23:33:17.00856< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1 is at boundary: 2
+{23996} >2025-05-28 23:33:17.00862< matrixcalc_AMD64 @ Fynn: 1xN001:  # endings: 2, # corrected: 0, not corrected: 0
+{23996} >2025-05-28 23:33:17.00869< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 0: 1
+{23996} >2025-05-28 23:33:17.00874< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 1: 1
+{23996} >2025-05-28 23:33:17.00882< matrixcalc_AMD64 @ Fynn: 1xN001:  Wire: Radial_2
+{23996} >2025-05-28 23:33:17.00890< matrixcalc_AMD64 @ Fynn: 1xN001:  # edges: 4
+{23996} >2025-05-28 23:33:17.00895< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, point: 15835
+{23996} >2025-05-28 23:33:17.00902< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00909< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, point: 17345
+{23996} >2025-05-28 23:33:17.00915< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00922< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, pos (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00928< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1 is at boundary: 2
+{23996} >2025-05-28 23:33:17.00935< matrixcalc_AMD64 @ Fynn: 1xN001:  # endings: 1, # corrected: 0, not corrected: 0
+{23996} >2025-05-28 23:33:17.00942< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 0: -1
+{23996} >2025-05-28 23:33:17.00949< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 1: 1
+{23996} >2025-05-28 23:33:17.00955< matrixcalc_AMD64 @ Fynn: 1xN001:  Wire: Radial_1
+{23996} >2025-05-28 23:33:17.00961< matrixcalc_AMD64 @ Fynn: 1xN001:  # edges: 26
+{23996} >2025-05-28 23:33:17.00967< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, point: 8703
+{23996} >2025-05-28 23:33:17.00973< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:17.00979< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, pos (0.00 | 13.21 | -11.72)
+{23996} >2025-05-28 23:33:17.00987< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0 is at boundary: 0
+{23996} >2025-05-28 23:33:17.00993< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0 meets Holms proposition: near to mapped but not in PEC proximity
+{23996} >2025-05-28 23:33:17.00999< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, point: 17345
+{23996} >2025-05-28 23:33:18.00006< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00013< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, pos (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00019< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1 is at boundary: 2
+{23996} >2025-05-28 23:33:18.00024< matrixcalc_AMD64 @ Fynn: 1xN001:  # endings: 2, # corrected: 0, not corrected: 0
+{23996} >2025-05-28 23:33:18.00031< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 0: 0
+{23996} >2025-05-28 23:33:18.00037< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 1: 1
+{23996} >2025-05-28 23:33:18.00043< matrixcalc_AMD64 @ Fynn: 1xN001:  Wire: Radial
+{23996} >2025-05-28 23:33:18.00050< matrixcalc_AMD64 @ Fynn: 1xN001:  # edges: 26
+{23996} >2025-05-28 23:33:18.00055< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, point: 8311
+{23996} >2025-05-28 23:33:18.00061< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00066< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, pos (13.21 | 0.00 | -11.72)
+{23996} >2025-05-28 23:33:18.00074< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0 is at boundary: 2
+{23996} >2025-05-28 23:33:18.00081< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, point: 17345
+{23996} >2025-05-28 23:33:18.00088< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00094< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, pos (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00100< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1 is at boundary: 2
+{23996} >2025-05-28 23:33:18.00107< matrixcalc_AMD64 @ Fynn: 1xN001:  # endings: 2, # corrected: 0, not corrected: 0
+{23996} >2025-05-28 23:33:18.00112< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 0: 1
+{23996} >2025-05-28 23:33:18.00119< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 1: 1
+{23996} >2025-05-28 23:33:18.00125< matrixcalc_AMD64 @ Fynn: 1xN001:  Wire: Driven_element
+{23996} >2025-05-28 23:33:18.00132< matrixcalc_AMD64 @ Fynn: 1xN001:  # edges: 11
+{23996} >2025-05-28 23:33:18.00138< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, point: 26393
+{23996} >2025-05-28 23:33:18.00145< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00151< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0, pos (0.00 | 0.00 | 17.66)
+{23996} >2025-05-28 23:33:18.00158< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 0 is at boundary: 2
+{23996} >2025-05-28 23:33:18.00165< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, point: 18099
+{23996} >2025-05-28 23:33:18.00172< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, wire ends: (0.00 | 0.00 | 0.00)
+{23996} >2025-05-28 23:33:18.00178< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1, pos (0.00 | 0.00 | 0.18)
+{23996} >2025-05-28 23:33:18.00183< matrixcalc_AMD64 @ Fynn: 1xN001:  ending 1 is at boundary: 2
+{23996} >2025-05-28 23:33:18.00191< matrixcalc_AMD64 @ Fynn: 1xN001:  # endings: 2, # corrected: 0, not corrected: 0
+{23996} >2025-05-28 23:33:18.00196< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 0: 1
+{23996} >2025-05-28 23:33:18.00203< matrixcalc_AMD64 @ Fynn: 1xN001:  connection state of ending 1: 1
+
+

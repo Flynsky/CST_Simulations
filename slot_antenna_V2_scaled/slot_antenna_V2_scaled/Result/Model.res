@@ -1,5 +1,5 @@
 MWS Result File Version 20150206
-size=i:158
+size=i:147
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -305,102 +305,6 @@ lifetime=s:persistent
 result=s:0
 treepath=s:1D Results
 
-type=s:FOLDER
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Farfields\Pattern
-
-type=s:FARFIELDPOLAR
-subtype=s:farfield polar linear
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)
-files=s:farfield (f=24) [1]_1.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)_1
-files=s:farfield (f=24) [1]_2.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)_2
-files=s:farfield (f=24) [1]_3.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=23.5)[1] (Abs,Phi=90)
-files=s:farfield (f=23.5) [1]_1.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)_3
-files=s:farfield (f=24) [1]_4.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=23.5)[1] (Abs,Phi=90)_1
-files=s:farfield (f=23.5) [1]_2.sig
-
-type=s:FARFIELDPOLAR
-subtype=s:farfield polar linear
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)_4
-files=s:farfield (f=24) [1]_5.sig
-
-type=s:XYSIGNAL
-subtype=s:farfield cartesian
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:external
-lifetime=s:persistent
-result=s:0
-user_delete=s:1
-treepath=s:1D Results\Farfields\Pattern\farfield (f=24)[1] (Abs,Phi=90)_5
-files=s:farfield (f=24) [1]_6.sig
-
 type=s:XYSIGNAL
 subtype=s:user
 problemclass=s::4:3
@@ -622,46 +526,6 @@ lifetime=s:rebuild
 result=s:1
 treepath=s:1D Results\Energy\Energy [1]
 files=s:1.eng
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Fit)
-files=s:Silver_Z_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Fit)
-files=s:Silver_Z_im.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Theory)
-files=s:Silver_Z_datalist_re.sig
-
-type=s:XYSIGNAL
-subtype=s:user
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:persistent
-result=s:0
-treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Theory)
-files=s:Silver_Z_datalist_im.sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -1385,109 +1249,9 @@ visibility=s:visible
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=26.4) [1]
-files=s:e-field (f=26.4)_1,1.m3d
-files=s:e-field (f=26.4)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=25.92) [1]
-files=s:e-field (f=25.92)_1,1.m3d
-files=s:e-field (f=25.92)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=25.44) [1]
-files=s:e-field (f=25.44)_1,1.m3d
-files=s:e-field (f=25.44)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=24.96) [1]
-files=s:e-field (f=24.96)_1,1.m3d
-files=s:e-field (f=24.96)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=24.48) [1]
-files=s:e-field (f=24.48)_1,1.m3d
-files=s:e-field (f=24.48)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
 treepath=s:2D/3D Results\E-Field\e-field (f=24) [1]
 files=s:e-field (f=24)_1,1.m3d
 files=s:e-field (f=24)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=23.52) [1]
-files=s:e-field (f=23.52)_1,1.m3d
-files=s:e-field (f=23.52)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=23.04) [1]
-files=s:e-field (f=23.04)_1,1.m3d
-files=s:e-field (f=23.04)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=22.56) [1]
-files=s:e-field (f=22.56)_1,1.m3d
-files=s:e-field (f=22.56)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=22.08) [1]
-files=s:e-field (f=22.08)_1,1.m3d
-files=s:e-field (f=22.08)_1,1_m3d.rex
-
-type=s:EFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\E-Field\e-field (f=21.6) [1]
-files=s:e-field (f=21.6)_1,1.m3d
-files=s:e-field (f=21.6)_1,1_m3d.rex
 
 type=s:HFIELD3D
 problemclass=s::8:1000
@@ -1518,4 +1282,123 @@ result=s:1
 treepath=s:Farfields\farfield (f=24) [1]
 files=s:farfield (f=24)_1.ffm
 ylabel=s:farfield (f=24) [1]
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Fit)
+files=s:Silver_Z_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Fit)
+files=s:Silver_Z_im.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z' (Theory)
+files=s:Silver_Z_datalist_re.sig
+
+type=s:XYSIGNAL
+subtype=s:user
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Materials\Silver\Surface Impedance\Z'' (Theory)
+files=s:Silver_Z_datalist_im.sig
+
+type=s:FOLDER
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Farfields\90
+
+type=s:XYSIGNAL
+subtype=s:farfield cartesian
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+user_delete=s:1
+treepath=s:1D Results\Farfields\90\farfield (f=24)[1] (Crosspolar,Phi=90)
+files=s:farfield (f=24) [1]_1.sig
+
+type=s:XYSIGNAL
+subtype=s:farfield cartesian
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+user_delete=s:1
+treepath=s:1D Results\Farfields\90\farfield (f=24)[1] (Copolar,Phi=90)
+files=s:farfield (f=24) [1]_2.sig
+
+type=s:FOLDER
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Farfields\0
+
+type=s:XYSIGNAL
+subtype=s:farfield cartesian
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+user_delete=s:1
+treepath=s:1D Results\Farfields\0\farfield (f=24)[1] (Copolar,Phi=0)
+files=s:farfield (f=24) [1]_3.sig
+
+type=s:XYSIGNAL
+subtype=s:farfield cartesian
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+user_delete=s:1
+treepath=s:1D Results\Farfields\0\farfield (f=24)[1] (Crosspolar,Phi=0)
+files=s:farfield (f=24) [1]_4.sig
+
+type=s:FOLDER
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+treepath=s:1D Results\Farfields\lud
+
+type=s:XYSIGNAL
+subtype=s:farfield cartesian
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:external
+lifetime=s:persistent
+result=s:0
+user_delete=s:1
+treepath=s:1D Results\Farfields\lud\farfield (f=24)[1] (Abs,Phi=90)
+files=s:farfield (f=24) [1]_5.sig
 

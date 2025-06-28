@@ -1,0 +1,434 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "wire_diameter",
+         "type": "float",
+         "value": 3.0
+      },
+      {
+         "name": "spacing_reflector",
+         "type": "float",
+         "value": 44.9688687
+      },
+      {
+         "name": "spacing_director_9",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_8",
+         "type": "float",
+         "value": 92.5459317846
+      },
+      {
+         "name": "spacing_director_7",
+         "type": "float",
+         "value": 88.738567568
+      },
+      {
+         "name": "spacing_director_6",
+         "type": "float",
+         "value": 83.3722825698
+      },
+      {
+         "name": "spacing_director_5",
+         "type": "float",
+         "value": 77.9160598342
+      },
+      {
+         "name": "spacing_director_4",
+         "type": "float",
+         "value": 72.4298578528
+      },
+      {
+         "name": "spacing_director_38",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_37",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_36",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_35",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_34",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_33",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_32",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_31",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_30",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_3",
+         "type": "float",
+         "value": 66.2841124638
+      },
+      {
+         "name": "spacing_director_29",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_28",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_27",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_26",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_25",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_24",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_23",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_22",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_21",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_20",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_2",
+         "type": "float",
+         "value": 59.7486368794
+      },
+      {
+         "name": "spacing_director_19",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_18",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_17",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_16",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_15",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_14",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_13",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_12",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_11",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_10",
+         "type": "float",
+         "value": 96.3532960012
+      },
+      {
+         "name": "spacing_director_1",
+         "type": "float",
+         "value": 53.2431405408
+      },
+      {
+         "name": "position",
+         "type": "float",
+         "value": 1.0
+      },
+      {
+         "name": "num_ff_monitors",
+         "type": "float",
+         "value": 11.0
+      },
+      {
+         "name": "num_elements",
+         "type": "float",
+         "value": 11.0
+      },
+      {
+         "name": "l_reflector",
+         "type": "float",
+         "value": 146.8977233024
+      },
+      {
+         "name": "l_driver",
+         "type": "float",
+         "value": 140.90245526
+      },
+      {
+         "name": "l_director_9",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_8",
+         "type": "float",
+         "value": 125.6401135598
+      },
+      {
+         "name": "l_director_7",
+         "type": "float",
+         "value": 126.6294286712
+      },
+      {
+         "name": "l_director_6",
+         "type": "float",
+         "value": 127.7986192574
+      },
+      {
+         "name": "l_director_5",
+         "type": "float",
+         "value": 129.0277683352
+      },
+      {
+         "name": "l_director_4",
+         "type": "float",
+         "value": 130.2868966588
+      },
+      {
+         "name": "l_director_38",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_37",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_36",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_35",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_34",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_33",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_32",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_31",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_30",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_3",
+         "type": "float",
+         "value": 131.9357551778
+      },
+      {
+         "name": "l_director_29",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_28",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_27",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_26",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_25",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_24",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_23",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_22",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_21",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_20",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_2",
+         "type": "float",
+         "value": 133.554634451
+      },
+      {
+         "name": "l_director_19",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_18",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_17",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_16",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_15",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_14",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_13",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_12",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_11",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_10",
+         "type": "float",
+         "value": 124.6507984484
+      },
+      {
+         "name": "l_director_1",
+         "type": "float",
+         "value": 135.20349297
+      },
+      {
+         "name": "frequency_centre",
+         "type": "float",
+         "value": 1.0
+      },
+      {
+         "name": "c0",
+         "type": "string",
+         "value": "CLight*1E-06"
+      }
+   ],
+   "outputVariables": []
+}
