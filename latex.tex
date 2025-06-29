@@ -1,4 +1,3 @@
-
 \documentclass[
   aspectratio=169, % 16:9 Format
 ]{beamer}
@@ -31,7 +30,7 @@
 % \metroset{progressbar=foot}       % progress bar at footline (default)
 % \metroset{progressbar=none}       % hide progress bar
 \metroset{sectionpage=none} % disable section pages
-% \setbeameroption{show notes}
+\setbeameroption{show notes}
 
 \definecolor{bar}{rgb}{0, 0.5, 0.2}
 \definecolor{frametitle}{rgb}{0.2, 0.2, 0.2}
@@ -83,45 +82,99 @@
 \end{columns}
 \end{frame}
 
-\section{Antennentyp}
+\section{\thesection. Antennentyp}
 \begin{frame}{\thesection. Antennentyp}
-\begin{columns}[T]
+\vspace{-0.5em} % Slightly reduce vertical spacing after title
+\textit{[In-line] [resonant] [waveguide] [slot array] [with narrow-wall slots]}
+\begin{columns}[T,onlytextwidth]
 
-    \begin{column}{0.48\textwidth}
+    % Left Column: Image
+    \begin{column}{0.5\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{images/slotted_antenna v1.png}
-        \captionof{figure}{3D-Render des Hohlschlitzstrahlers in Fusion360}
+        \includegraphics[width=0.95\linewidth,frame]{images/slotted_antenna v1.png}
+        \captionof{figure}{\small 3D-Render des Hohlschlitzstrahlers in Fusion360}
         \label{fig:slotted_fusion}
     \end{column}
 
-    \begin{column}{0.48\textwidth}
-        \begin{itemize}
-            \item Hohlleiterschlitzantenne
-            \item Resonanzfall
-            \item Kurzgeschlossen an einem Ende
-            \item Schlitze in der schmalen Hohlleiterwand
-        \end{itemize}
+    % Right Column: Content
+    \begin{column}{0.5\textwidth}
+
+       \begin{description}[]
+            \item[\textbf{In-line}] Linear angeordnete Schlitze
+            \item[\textbf{Resonant}] Betrieb auf Resonanzfrequenz
+            \item[\textbf{Waveguide}] Hohlleiterstruktur für die Führung der Wellen
+            \item[\textbf{Slot array}] Mehrere Schlitze als Antennen-Array
+            \item[\textbf{Narrow-wall slots}] Schlitze in der schmalen Hohlleiterwand
+        \end{description}
+
     \end{column}
+
 \end{columns}
 \end{frame}
 
 \section{\thesection. Funktionsweise}
-\begin{frame}{\thesection. Funktionsweise}
+\begin{frame}{\thesection.1 Funktionsweise}
     \begin{figure}
         \centering
         \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{images/eplanation.png}
-            \caption{Fernfeld bei $\phi = 0^\circ$ (CST Export)}
+            \includegraphics[width=\linewidth]{images/wandstrom.png}
+            \caption{Darstellung der Wandströme einer H$_{10}$–Welle.}
+            \footnotetext{\tiny Quelle Abbildung 3: \url{https://www.radartutorial.eu/03.linetheory/Hohlleiter.de.html}}
         \end{minipage}
-                \hfill
+        \hfill
         \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{images/wellenausbreitung.png}
-            \caption{Fernfeld bei $\phi = 90^\circ$ (CST Export)}
+            \includegraphics[width=\linewidth]{images/eplanation.png}
+            \caption{Unterbrechung von Wandströmen}
         \end{minipage}
-        \footnotetext{\tiny Quelle: Wikipedia – \url{https://en.wikipedia.org/wiki/File:Rotating_marine_radar_-_rotating_waveguide_antenna.gif}}
+        \footnotetext{\tiny Quelle Abbildung 4: Kumar, K. P. Ray: Compact Slot Array Antennas for Wireless Communications, Academic Press, 2019}
     \end{figure}
+\end{frame}
+
+
+\begin{frame}{\thesection.2 Funktionsweise}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{images/new/e-field (f=24) [1].png}
+    \caption{Elektrisches Nahfeld (CST Export)}
+  \end{figure}
+\end{frame}
+
+\section{\thesection. Nahfeld}
+\begin{frame}{\thesection.1 Nahfeld}
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/new/e-field (f=24) [1]_2.png}
+        \captionof{figure}{Elektrisches Nahfeld (CST Export)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/new/h-field (f=24) [1].png}
+        \captionof{figure}{Magnetisches Nahfeld (CST Export)}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{\thesection.2 Nahfeld}
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/efield_sketch.jpg}
+        \captionof{figure}{Elektrisches Nahfeld (CST Export)}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{images/new/h-field (f=24) [1].png}
+        \captionof{figure}{Magnetisches Nahfeld (CST Export)}
+    \end{minipage}
+    \note{
+        \begin{minipage}[t]{0.4\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{images/eplanation.png}
+        \end{minipage}
+    }
+    \note{\textbf{iplane und hplane cut:}}
 \end{frame}
 
 \section{\thesection. Richtwirkung}
@@ -140,43 +193,38 @@
         \centering
         \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{images/RealGainPh90_Kart.png}
-            \caption{Fernfeld bei $\phi = 90^\circ$ (CST Export)}
+            \includegraphics[width=\linewidth]{images/new/90lud.png}
+            \caption{Fernfeld h-plane (CST Export)}
         \end{minipage}
         \hfill
         \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{images/RealGainPh0_Kart.png}
-            \caption{Fernfeld bei $\phi = 0^\circ$ (CST Export)}
+            \includegraphics[width=\linewidth]{images/new/0_ludw.png}
+            \caption{Fernfeld e-plane (CST Export)}
         \end{minipage}
     \end{figure}
 \end{frame}
 
-
-\section{\thesection. Nahfeld}
-\begin{frame}{\thesection. Nahfeld}
-    \begin{minipage}[t]{0.48\textwidth}
+\section{\thesection. Polarisation}
+\begin{frame}{\thesection. Polarisation}
+    \begin{figure}
         \centering
-        \includegraphics[width=\linewidth]{images/e-field_top_pretty.png}
-        \captionof{figure}{Elektrisches Nahfeld (CST Export)}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.48\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/h-field_top_extarct.png}
-        \captionof{figure}{Magnetisches Nahfeld (CST Export)}
-    \end{minipage}
-    \note{
-        \begin{minipage}[t]{0.4\textwidth}
+        \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{images/eplanation.png}
+            \includegraphics[width=\linewidth]{images/new/90Cro_cros.png}
+            \caption{Fernfeld h-plane (CST Export)}
         \end{minipage}
-    }
-    \note{\textbf{iplane und hplane cut:}}
+        \hfill
+        \begin{minipage}[t]{0.49\textwidth}
+            \centering
+            \includegraphics[width=\linewidth]{images/new/0cro_cros.png}
+            \caption{Fernfeld e-plane (CST Export)}
+        \end{minipage}
+    \end{figure}
 \end{frame}
 
-\section{\thesection. Streuparameter|Bandbreite}
-\begin{frame}{\thesection. Streuparameter|Bandbreite}
+\section{\thesection. Streuparameter/Bandbreite}
+\begin{frame}{\thesection. Streuparameter/Bandbreite}
     \begin{minipage}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=0.9\linewidth]{images/sparamLog.png}
@@ -190,60 +238,50 @@
     \end{minipage}
 \end{frame}
 
-
 \note{
 S₁₁ (Reflexion)
 \begin{itemize}
     \item  S₁₁ = 0 dB → 100 Reflexion (schlechtes Matching, z.B. offenes Ende)\\
-    \item S₁₁ = –10 dB → ca. 10 reflektierte Leistung, 90 werden übertragen\\
-    \item S₁₁ = –20 dB → ca. 1  Reflexion → sehr gutes Matching\\
-    \item S₁₁ = –30 dB → ca. 0,1  Reflexion\\
+    \item S₁₁ = –10 dB → ca. 10\% reflektierte Leistung, 90\% werden übertragen\\
+    \item S₁₁ = –20 dB → ca. 1\%  Reflexion → sehr gutes Matching\\
+    \item S₁₁ = –30 dB → ca. 0,1\%  Reflexion\\
 \end{itemize}
 }
 
+% \section{\thesection. Gewinn}
+% \begin{frame}{\thesection. Gewinn}
+% \centering
+% \begin{itemize}
+%     \item \textbf{Absoluter Gewinn:} \\
+%     $G_\text{abs} = 23{,}4\,\mathrm{dBi}$ 
+    
+%     \note{\textbf{Absoluter Gewinn:} Strahlungsverstärkung der Antenne inklusive interner Verluste (z.\,B. Leitungsverluste, Dielektrika), aber ohne Berücksichtigung des Rückflussverlusts (\gls*{s11}).\\}
+
+%     \item \textbf{Realisierter Gewinn:}
+% \end{itemize}
+
+% \begin{align*}
+% G_\text{real} &= G \cdot (1 - |S_{11}|) \\
+%               &= 23{,}4\,\mathrm{dBi} \cdot (1 - 0{,}158489) \\
+%               &\approx 19{,}7\,\mathrm{dBi}
+% \end{align*}
+
+% \note{\textbf{Realisierter Gewinn:} Das, was nach allen Verlusten und Rückkopplungen (\gls*{s11}) noch abgestrahlt wird – also der realistischste Wert.\\}
+% \end{frame}
 
 
-\section{\thesection. Gewinn}
-\begin{frame}{\thesection. Gewinn}
-\centering
-\begin{itemize}
-    \item \textbf{Absoluter Gewinn:} \\
-    $G_\text{abs} = 23{,}4\,\mathrm{dBi}$ 
-    
-    \note{\textbf{Absoluter Gewinn:} Strahlungsverstärkung der Antenne inklusive interner Verluste (z.\,B. Leitungsverluste, Dielektrika), aber ohne Berücksichtigung des Rückflussverlusts (\gls*{s11}).\\}
-    
-\item \textbf{Realisierter Gewinn:}
-\begin{flushleft}
-G_\text{real} &= G \cdot (1 - |S_{11}|) \\
-&= 23{,}4\,\mathrm{dBi} \cdot (1 - 0{,}158489) \\
-&\approx 19{,}7\,\mathrm{dBi}
-\end{flushleft}
-
-    \note{\textbf{Realisierter Gewinn:} Das, was nach allen Verlusten und Rückkopplungen (\gls*{s11}) noch abgestrahlt wird – also der realistischste Wert.\\}
-    
-    % \item Richtwirkung: °
-    % \note{\textbf{Richtwirkung:} Maß dafür, wie stark die Antenne in eine Richtung abstrahlt verglichen mit einer isotropen Antenne – ohne Verluste durch R\"uckkopplung oder ohmsche Verluste.\\}
-    
-    % \item \gls*{hpbw}: °
-    % \note{\textbf{\gls*{hpbw} (Half Power Beam Width):} Der Winkelbereich, in dem der Antennengewinn nicht mehr als 3\gls*{db} unter dem Maximalwert liegt. Gibt an, wie breit der Hauptstrahl ist.\\}
-    
-    % \item \textbf{Plausibilität:} \\
-    % ($G_\text{real} = Direct - |\gls*{s11}|$)
-    % \note{\textbf{Plausibilität:} Überprüfen, ob Realized Gain = Directivity \– Rückflussverlust (aus z.\,B. \gls*{s11}). Typisch: \gls*{s11} bei \−10\gls*{db} entspricht ca. 0.5\gls*{db} Verlust.\\}
-\end{itemize}
-\end{frame}
-
+\section{\thesection. Berechnungen}
 \begin{frame}{\thesection. Berechnungen}
 \footnotesize
 \begin{tabular}{@{}p{0.15\textwidth}p{0.35\textwidth}p{0.45\textwidth}@{}}
 \textbf{Größe} & \textbf{Allgemein} & \textbf{Für meine Schlitzantenne} \\
 \midrule
-HPBW & $\text{HPBW}_\text{uni} \approx \dfrac{50{,}76^\circ}{N \cdot d/\lambda}$ 
-& $N = 50$, $d = 8{,}74$ mm, $\lambda = 12{,}45$ mm \newline
+\text{HPBW}_\text{uni} & $\text{HPBW}_\text{uni} \approx \dfrac{50{,}76^\circ}{N \cdot d/\lambda}$ 
+& $N = 50$, $d = 8{,}74$mm, $\lambda = 12{,}45$mm \newline
 $\Rightarrow \text{HPBW} \approx \mathbf{1{,}4^\circ}$ \\
-\midrule
-Richtwirkung Dipol & $D_\text{hertz} = \dfrac{3}{2} \approx 1{,}76$ dBi 
-& Nicht relevant für Gruppenstrahler \\
+% \midrule
+% Richtwirkung Dipol & $D_\text{hertz} = \dfrac{3}{2} \approx 1{,}76$dBi 
+% & Nicht relevant für Gruppenstrahler \\
 \midrule
 HPBW Dipol & $\text{HPBW}_\text{hertz} = 90^\circ$ 
 & Gilt vertikal für jeden Schlitz (dipolähnlich) \\
@@ -264,7 +302,7 @@ $D$: Richtwirkung (Direktivität), \quad
 $\Theta_\text{min}, \Theta_\text{max}$: kleinste bzw. größte 3-dB-Keulenbreite (in Grad)
 \end{frame}
 
-\section{\thesection. Spezifikationen: Ziel vs. Umsetzung}
+\section{\thesection. Vergleich: Specs/Calcs/Simul}
 
 \begin{frame}{\thesection. Spezifikationen: Mechanisch}
 \begin{columns}[T]
@@ -279,27 +317,31 @@ $\Theta_\text{min}, \Theta_\text{max}$: kleinste bzw. größte 3-dB-Keulenbreite
   \begin{column}{0.7\textwidth}
     \centering
     \scriptsize
-    \textbf{Mechanische Parameter}
+    % \textbf{Mechanische Parameter}
     \vspace{1mm}
-
-    \begin{tabular}{|l|c|c|c|}
-      \hline
-      \textbf{Parameter} & \textbf{Gewünscht} & \textbf{Berechnet} & \textbf{Simuliert} \\
-      \hline
-      Anzahl Slots & – & – & \textbf{50} \\
-      \hline
-      Slotabstand & – & – & 8{,}74~mm \\
-      \hline
-      Slotbreite & – & $\lambda/20$ & 624{,}6~µm \\
-      \hline
-      Antennenlänge & – & – & 14{,}4~cm \\
-      \hline
-      Material & Silber & – & Silber \\
-      \hline
-    \end{tabular}
-
-    \vspace{2mm}
-    \scriptsize Realisierung durch Einschränkungen von Antenna Magus limitiert
+    
+\begin{table}[h!]
+\centering
+\caption{Mechanische Parameter}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Parameter} & \textbf{Gewünscht} & \textbf{Berechnet} & \textbf{Generiert mit Magus} \\
+\hline
+Anzahl Slots & – & – & \textbf{50} \\
+Slotabstand & – & $\lambda \cdot \tfrac{7}{10}$ & 8{,}74\,mm \\
+Slotbreite & – & $\lambda / 20$ & 624{,}6\,\textmu m \\
+Slotwinkelbereich & – & - & 5{,}5$^\circ$–8{,}82$^\circ$ \\
+Slottiefebereich & – & - & 878{,}26–894{,}46\,\textmu m \\
+Wellenleiterbreite & - & - & 8{,}93\,mm \\
+Wellenleiterhöhe & - & - & 3{,}97\,mm \\
+Wellenleiterlänge & – & – & 44{,}13\,cm \\
+Material & Silber & – & Silber \\
+\hline
+\end{tabular}
+\vspace{3mm}
+\scriptsize Realisierung durch Einschränkungen von Antenna Magus limitiert
+\label{tab:waveguide_summary}
+\end{table}
   \end{column}
 \end{columns}
 
@@ -316,39 +358,42 @@ Schmaler als $\lambda$/30: Kopplung verschlechtert sich, geringerer Wirkungsgrad
 \includegraphics[width=0.5\linewidth]{images/reflection_diag.png}
 }
 
-\begin{frame}{\thesection. Spezifikationen: Elektrisch}
-\begin{columns}[T]
-  
-  \begin{column}{0.7\textwidth}
+\begin{frame}{\thesection. Spezifikationen: Schlitzwinkel und -tiefe}
     \centering
-    \scriptsize
-    \textbf{Elektrische Parameter}
-    \vspace{1mm}
+    \begin{minipage}[t]{\textwidth}
+        \includegraphics[width=\linewidth]{images/SlotAngleVSNumber.png}
+        \captionof{figure}{python plots}
+        \label{fig:richtwirkung}
+    \end{minipage}
+\end{frame}
 
-    \begin{tabular}{|l|c|c|c|}
-      \hline
-      \textbf{Parameter} & \textbf{Gewünscht} & \textbf{Berechnet} & \textbf{Simuliert} \\
-      \hline
-      Frequenz (Mittenfrequenz) & 24.0~\gls*{ghz} & – & 24.0~GHz \\
-\hline
-Maximaler Gewinn & – & – & 23{,}0~dBi (hor) \textbar{} 22{,}6~dBi (vert) \\
-\hline
-Realisierter Gewinn & – & – & 22{,}8~dBi (hor) \textbar{} 22{,}4~dBi (vert) \\
-\hline
-
-      % Maximaler Gain (vertikal) & – & – & 22.6~dBi \\
-      % \hline
-      % Realisierter Gain (vertikal) & – & – & 22.4~dBi \\
-      % \hline
-      Horizontale 3~dB-Keulenbreite & \texttt{<=} 1.0° & 1.4° & \textcolor{red}{1.6°} \\
-      \hline
-      Vertikale 3~dB-Keulenbreite & – & 90° (Dipol) & 91.5° \\
-      \hline
-      Richtwirkung & – & 327 & 219 \\
-      \hline
-    \end{tabular}
-  \end{column}
-\end{columns}
+\begin{frame}{\thesection. Spezifikationen: Elektrisch}
+\centering
+\footnotesize
+\begin{table}[h!]
+\caption{Elektrische Parameter}
+\label{tab:waveguide_summary}
+\begin{tabular}{|l|c|c|c|}
+  \hline
+  \textbf{Parameter} & \textbf{Gewünscht} & \textbf{Berechnet} & \textbf{Simuliert} \\
+  \hline
+  Frequenz (Mittenfrequenz) & 24{,}0~GHz & – & 24{,}0~GHz \\
+  \hline
+  Maximaler Gain & – & – & 23{,}0~dBi (h) \textbar{} 22{,}6~dBi (e) \\
+  \hline
+  Realisierter Gain & – & – & 22{,}8~dBi (h) \textbar{} 22{,}4~dBi (e) \\
+  \hline
+  $HPBW_{\mathrm{hplane}}$ & $\leq$ 1{,}0° & 1{,}4° & \textcolor{red}{1{,}6°} \\
+  \hline
+  $HPBW_{\mathrm{eplane}}$ & – & 90° (Dipol) & 91{,}5° \\
+  \hline
+  Richtwirkung & – & 327 & 219 \\
+  \hline
+\end{tabular}
+\vspace{3mm}\\
+\scriptsize Realisierung durch Einschränkungen von Antenna Magus limitiert
+\end{table}
+\end{frame}
 
 \note{\textbf{Wellenlänge:} $\lambda$=C/f, hier: 12.49 mm\\
 \textbf{Slotabstände:} Gewählt damit die Antenne in Phase abstrahlt\\
@@ -357,17 +402,15 @@ Realisierter Gewinn & – & – & 22{,}8~dBi (hor) \textbar{} 22{,}4~dBi (vert) 
 \textbf{E-Plane:} Quer zur Schlitzrichtung \\
 \textbf{H-Plane:} Entlang der Schlitzrichtung\\
 }
-\end{frame}
 
-\section*{\thesection. Abkürzungen}
-\begin{frame}{\thesection. Abkürzungen}
+\section*{\thesection. Anhang}
+\begin{frame}{\thesection. Anhang: Abkürzungen}
 \scriptsize
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Abkürzung} & \textbf{Bedeutung} \\
 \hline
 HPBW        & Half Power Beam Width (Halbwertsbreite) \\
-HPBWhor     & Horizontal Half Power Beam Width (horizontale Halbwertsbreite) \\
 dBi         & Dezibel gegenüber Isotropstrahler \\
 dB          & Dezibel \\
 S11         & Rückflussdämpfung (Reflexionsfaktor) \\
@@ -383,8 +426,7 @@ CST         & Computer Simulation Technology \\
 \end{tabular}
 \end{frame}
 
-\section*{\thesection. Literatur}
-\begin{frame}[allowframebreaks]{\thesection. Literatur}
+\begin{frame}[allowframebreaks]{\thesection. Anhang: Literatur}
 \begin{thebibliography}{}
 
 \bibitem{strauss}
@@ -402,6 +444,10 @@ CST Studio Suite, Version 2023, Dassault Systèmes, www.3ds.com/products-service
 \bibitem{Maggus}
 Antenna Magus, Version 2023.2, Dassault Systèmes, www.antennamagus.com
 
+\bibitem{Perotoni2014}
+Marcelo B. Perotoni, Rodrigo Enjiu: \textit{Design und Bewertung einer Hohlleiter-Schlitzantenne (Slotted Waveguide Antenna, SWA) mit EM-Simulation},\\ Federal University of ABC, CST – Computer Simulation Technology AG, Oktober 2014.\\
+\url{https://www.researchgate.net/publication/283683848_Design_and_Analysis_of_Slotted_Waveguide_Antennas_with_EM_Simulation}
+
 \end{thebibliography}
 \end{frame}
 
@@ -409,6 +455,19 @@ Antenna Magus, Version 2023.2, Dassault Systèmes, www.antennamagus.com
 % \begin{frame}{Abbildungsverzeichnis}
 % \listoffigures
 % \end{frame}
+
+\note{
+Feedback zu A\&W:\\
+\begin{itemize}
+        \item 50 Slots zu große Simulationszeit!!
+        \item Variablen bei ihren Formeln beschreiben
+        \item Bamdbreite diskutieren bei gegebener HPBW macht keinen Sinn
+        \item Früher im Semester mit CST anfangen, vielleicht ein Praktikum mit kleinem Dipol?\\
+        Vielleicht sogar PCB antenne? <3\\
+        Diesen dann in ihrem Labor vermessen?
+        \item Größerer Fokus auf Anwendungen von Antennen
+    \end{itemize}
+}
 
 \includepdf[pages=-]{Aufgaben_AundW_SS2025_.pdf}
 \includepdf[pages=-]{hinweise_zur_praesention_modularbeiten(1).pdf}
